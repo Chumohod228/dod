@@ -1,0 +1,2181 @@
+{
+  "outcome": "interrupted",
+  "config": {
+    "leader_ids": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "follower_ids": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "port": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00",
+    "leader_ranges": {
+      "7": [
+        -811,
+        1413
+      ],
+      "8": [
+        1608,
+        3974
+      ],
+      "9": [
+        -1782,
+        435
+      ],
+      "10": [
+        1839,
+        4310
+      ],
+      "11": [
+        2054,
+        5878
+      ],
+      "12": [
+        3817,
+        5065
+      ]
+    },
+    "follower_limits": "/home/chumohod/dod/results/pair_setup_7_12_to_13_18_20261015T084734_891910Z/follower_limits.json",
+    "invert": [],
+    "hz": 50,
+    "speed": 600,
+    "acceleration": 50,
+    "deadband": 2,
+    "retry_interval": 0.5,
+    "timeout": 0.03,
+    "max_read_age": 0.2,
+    "max_leader_step": 1024,
+    "duration": 0,
+    "no_reconnect": false,
+    "check_only": false,
+    "output": "/home/chumohod/dod/results/pair_setup_7_12_to_13_18_20261015T084734_891910Z/teleop_recovery_20261015T092211",
+    "pairs": {
+      "7": 13,
+      "8": 14,
+      "9": 15,
+      "10": 16,
+      "11": 17,
+      "12": 18
+    },
+    "follower_ranges": {
+      "13": [
+        887,
+        3207
+      ],
+      "14": [
+        850,
+        3244
+      ],
+      "15": [
+        943,
+        3151
+      ],
+      "16": [
+        847,
+        3248
+      ],
+      "17": [
+        133,
+        3961
+      ],
+      "18": [
+        1297,
+        2798
+      ]
+    }
+  },
+  "duration_s": 2411.167312497999,
+  "peak_definition": "max(abs(signed current)) over valid sampled telemetry",
+  "current_ma_per_tick": 6.5,
+  "bad_checksums": 0,
+  "ignored_packets": 0,
+  "servos": {
+    "13": {
+      "samples": 100339,
+      "fault_samples": 1,
+      "max_abs_current_ma": 130.0,
+      "peak": {
+        "utc": "2026-10-15T09:23:33.891590+00:00",
+        "elapsed_s": 82.124447,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 13,
+        "position": 1738,
+        "speed": 200,
+        "voltage_v": 7.7,
+        "temperature_c": 29,
+        "moving": 1,
+        "current_raw": 20,
+        "current_ma": 130.0,
+        "status": 0,
+        "abs_current_ma": 130.0
+      },
+      "first_elapsed_s": 0.026622,
+      "last_elapsed_s": 2411.157933,
+      "voltage_v": 7.8,
+      "min_voltage_v": 3.9,
+      "max_voltage_v": 8.1,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T09:34:15.963719+00:00",
+        "elapsed_s": 724.196577,
+        "phase": "stopping",
+        "target_position": null,
+        "servo_id": 13,
+        "position": 1807,
+        "speed": 0,
+        "voltage_v": 3.9,
+        "temperature_c": 29,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 1,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T10:54:56.338863+00:00",
+        "elapsed_s": 1097.183675,
+        "phase": "follower_preflight",
+        "target_position": null,
+        "servo_id": 13,
+        "position": 1765,
+        "speed": 0,
+        "voltage_v": 8.1,
+        "temperature_c": 22,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "14": {
+      "samples": 100339,
+      "fault_samples": 0,
+      "max_abs_current_ma": 3432.0,
+      "peak": {
+        "utc": "2026-10-15T09:23:48.465624+00:00",
+        "elapsed_s": 96.698482,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 14,
+        "position": 2372,
+        "speed": 0,
+        "voltage_v": 6.3,
+        "temperature_c": 29,
+        "moving": 1,
+        "current_raw": 528,
+        "current_ma": 3432.0,
+        "status": 0,
+        "abs_current_ma": 3432.0
+      },
+      "first_elapsed_s": 0.027293,
+      "last_elapsed_s": 2411.158616,
+      "voltage_v": 7.8,
+      "min_voltage_v": 4.0,
+      "max_voltage_v": 8.0,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T09:34:15.964361+00:00",
+        "elapsed_s": 724.197217,
+        "phase": "stopping",
+        "target_position": null,
+        "servo_id": 14,
+        "position": 857,
+        "speed": 0,
+        "voltage_v": 4.0,
+        "temperature_c": 31,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T09:22:11.965017+00:00",
+        "elapsed_s": 0.197875,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 14,
+        "position": 2101,
+        "speed": 50,
+        "voltage_v": 8.0,
+        "temperature_c": 28,
+        "moving": 0,
+        "current_raw": 3,
+        "current_ma": 19.5,
+        "status": 0,
+        "abs_current_ma": 19.5
+      }
+    },
+    "15": {
+      "samples": 100339,
+      "fault_samples": 1,
+      "max_abs_current_ma": 448.5,
+      "peak": {
+        "utc": "2026-10-15T09:23:32.881357+00:00",
+        "elapsed_s": 81.114214,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 15,
+        "position": 1681,
+        "speed": -150,
+        "voltage_v": 6.8,
+        "temperature_c": 28,
+        "moving": 1,
+        "current_raw": 69,
+        "current_ma": 448.5,
+        "status": 0,
+        "abs_current_ma": 448.5
+      },
+      "first_elapsed_s": 0.027965,
+      "last_elapsed_s": 2411.159232,
+      "voltage_v": 7.8,
+      "min_voltage_v": 3.9,
+      "max_voltage_v": 8.0,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T09:34:15.965020+00:00",
+        "elapsed_s": 724.197877,
+        "phase": "stopping",
+        "target_position": null,
+        "servo_id": 15,
+        "position": 3140,
+        "speed": 0,
+        "voltage_v": 3.9,
+        "temperature_c": 28,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 1,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T09:22:13.172320+00:00",
+        "elapsed_s": 1.405177,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 15,
+        "position": 2470,
+        "speed": 600,
+        "voltage_v": 8.0,
+        "temperature_c": 27,
+        "moving": 1,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "16": {
+      "samples": 100339,
+      "fault_samples": 1,
+      "max_abs_current_ma": 403.0,
+      "peak": {
+        "utc": "2026-10-15T10:55:29.007651+00:00",
+        "elapsed_s": 1129.852459,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 16,
+        "position": 2695,
+        "speed": 200,
+        "voltage_v": 7.5,
+        "temperature_c": 23,
+        "moving": 1,
+        "current_raw": 62,
+        "current_ma": 403.0,
+        "status": 0,
+        "abs_current_ma": 403.0
+      },
+      "first_elapsed_s": 0.028683,
+      "last_elapsed_s": 2411.159866,
+      "voltage_v": 7.7,
+      "min_voltage_v": 3.8,
+      "max_voltage_v": 7.9,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T09:34:15.965681+00:00",
+        "elapsed_s": 724.198538,
+        "phase": "stopping",
+        "target_position": null,
+        "servo_id": 16,
+        "position": 2954,
+        "speed": 0,
+        "voltage_v": 3.8,
+        "temperature_c": 30,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 1,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T09:22:12.670471+00:00",
+        "elapsed_s": 0.903329,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 16,
+        "position": 2632,
+        "speed": 600,
+        "voltage_v": 7.9,
+        "temperature_c": 30,
+        "moving": 1,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      }
+    },
+    "17": {
+      "samples": 100339,
+      "fault_samples": 1,
+      "max_abs_current_ma": 45.5,
+      "peak": {
+        "utc": "2026-10-15T09:22:45.242874+00:00",
+        "elapsed_s": 33.475731,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 17,
+        "position": 874,
+        "speed": 150,
+        "voltage_v": 7.9,
+        "temperature_c": 28,
+        "moving": 1,
+        "current_raw": 7,
+        "current_ma": 45.5,
+        "status": 0,
+        "abs_current_ma": 45.5
+      },
+      "first_elapsed_s": 0.02932,
+      "last_elapsed_s": 2411.160498,
+      "voltage_v": 7.8,
+      "min_voltage_v": 3.8,
+      "max_voltage_v": 8.0,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T09:34:15.966342+00:00",
+        "elapsed_s": 724.1992,
+        "phase": "stopping",
+        "target_position": null,
+        "servo_id": 17,
+        "position": 951,
+        "speed": 0,
+        "voltage_v": 3.8,
+        "temperature_c": 29,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 1,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T09:22:11.966919+00:00",
+        "elapsed_s": 0.199776,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 17,
+        "position": 1190,
+        "speed": 0,
+        "voltage_v": 8.0,
+        "temperature_c": 28,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "18": {
+      "samples": 100339,
+      "fault_samples": 2466,
+      "max_abs_current_ma": 3230.5,
+      "peak": {
+        "utc": "2026-10-15T09:23:29.746029+00:00",
+        "elapsed_s": 77.978888,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 18,
+        "position": 1631,
+        "speed": 0,
+        "voltage_v": 5.7,
+        "temperature_c": 31,
+        "moving": 1,
+        "current_raw": 497,
+        "current_ma": 3230.5,
+        "status": 0,
+        "abs_current_ma": 3230.5
+      },
+      "first_elapsed_s": 0.029969,
+      "last_elapsed_s": 2411.16118,
+      "voltage_v": 7.8,
+      "min_voltage_v": 3.8,
+      "max_voltage_v": 8.0,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T09:34:15.967040+00:00",
+        "elapsed_s": 724.1999,
+        "phase": "stopping",
+        "target_position": null,
+        "servo_id": 18,
+        "position": 1324,
+        "speed": 0,
+        "voltage_v": 3.8,
+        "temperature_c": 38,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 1,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T09:22:11.797111+00:00",
+        "elapsed_s": 0.029969,
+        "phase": "follower_preflight",
+        "target_position": null,
+        "servo_id": 18,
+        "position": 1892,
+        "speed": 0,
+        "voltage_v": 8.0,
+        "temperature_c": 31,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      }
+    },
+    "7": {
+      "samples": 100333,
+      "fault_samples": 0,
+      "max_abs_current_ma": 13.0,
+      "peak": {
+        "utc": "2026-10-15T09:33:07.821536+00:00",
+        "elapsed_s": 656.054401,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 7,
+        "position": 3872,
+        "speed": -50,
+        "voltage_v": 8.0,
+        "temperature_c": 28,
+        "moving": 0,
+        "current_raw": 2,
+        "current_ma": 13.0,
+        "status": 0,
+        "abs_current_ma": 13.0
+      },
+      "first_elapsed_s": 0.030627,
+      "last_elapsed_s": 2411.14967,
+      "voltage_v": 7.8,
+      "min_voltage_v": 4.1,
+      "max_voltage_v": 8.1,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T09:34:15.959755+00:00",
+        "elapsed_s": 724.19262,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 7,
+        "position": 73,
+        "speed": 0,
+        "voltage_v": 4.1,
+        "temperature_c": 28,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T09:24:27.287315+00:00",
+        "elapsed_s": 135.520192,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 7,
+        "position": 1,
+        "speed": 0,
+        "voltage_v": 8.1,
+        "temperature_c": 28,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "8": {
+      "samples": 100333,
+      "fault_samples": 0,
+      "max_abs_current_ma": 6.5,
+      "peak": {
+        "utc": "2026-10-15T09:22:29.054739+00:00",
+        "elapsed_s": 17.287601,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 8,
+        "position": 1607,
+        "speed": 0,
+        "voltage_v": 7.9,
+        "temperature_c": 27,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "first_elapsed_s": 0.031286,
+      "last_elapsed_s": 2411.15036,
+      "voltage_v": 7.9,
+      "min_voltage_v": 4.1,
+      "max_voltage_v": 8.0,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T09:34:15.960457+00:00",
+        "elapsed_s": 724.193313,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 8,
+        "position": 1609,
+        "speed": 0,
+        "voltage_v": 4.1,
+        "temperature_c": 27,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T09:22:11.798429+00:00",
+        "elapsed_s": 0.031286,
+        "phase": "leader_preflight",
+        "target_position": null,
+        "servo_id": 8,
+        "position": 1627,
+        "speed": 0,
+        "voltage_v": 8.0,
+        "temperature_c": 27,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "9": {
+      "samples": 100333,
+      "fault_samples": 0,
+      "max_abs_current_ma": 6.5,
+      "peak": {
+        "utc": "2026-10-15T09:22:22.604002+00:00",
+        "elapsed_s": 10.836859,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 9,
+        "position": 425,
+        "speed": 0,
+        "voltage_v": 8.0,
+        "temperature_c": 26,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "first_elapsed_s": 0.031942,
+      "last_elapsed_s": 2411.151159,
+      "voltage_v": 7.9,
+      "min_voltage_v": 4.1,
+      "max_voltage_v": 8.1,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T09:34:15.961095+00:00",
+        "elapsed_s": 724.193952,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 9,
+        "position": 426,
+        "speed": 0,
+        "voltage_v": 4.1,
+        "temperature_c": 27,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T09:22:19.748626+00:00",
+        "elapsed_s": 7.981485,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 9,
+        "position": 425,
+        "speed": 0,
+        "voltage_v": 8.1,
+        "temperature_c": 26,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "10": {
+      "samples": 100333,
+      "fault_samples": 0,
+      "max_abs_current_ma": 6.5,
+      "peak": {
+        "utc": "2026-10-15T09:22:12.063360+00:00",
+        "elapsed_s": 0.296217,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 10,
+        "position": 4017,
+        "speed": 0,
+        "voltage_v": 7.8,
+        "temperature_c": 27,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "first_elapsed_s": 0.032587,
+      "last_elapsed_s": 2411.151857,
+      "voltage_v": 7.8,
+      "min_voltage_v": 4.1,
+      "max_voltage_v": 8.0,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T09:34:15.961723+00:00",
+        "elapsed_s": 724.194581,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 10,
+        "position": 4025,
+        "speed": 0,
+        "voltage_v": 4.1,
+        "temperature_c": 27,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T09:22:11.983070+00:00",
+        "elapsed_s": 0.215929,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 10,
+        "position": 4017,
+        "speed": 0,
+        "voltage_v": 8.0,
+        "temperature_c": 27,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "11": {
+      "samples": 100333,
+      "fault_samples": 0,
+      "max_abs_current_ma": 6.5,
+      "peak": {
+        "utc": "2026-10-15T09:22:13.310603+00:00",
+        "elapsed_s": 1.543462,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 11,
+        "position": 2856,
+        "speed": 0,
+        "voltage_v": 7.9,
+        "temperature_c": 30,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "first_elapsed_s": 0.033235,
+      "last_elapsed_s": 2411.152518,
+      "voltage_v": 7.8,
+      "min_voltage_v": 4.0,
+      "max_voltage_v": 8.0,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T09:34:15.962345+00:00",
+        "elapsed_s": 724.195202,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 11,
+        "position": 2871,
+        "speed": 0,
+        "voltage_v": 4.0,
+        "temperature_c": 30,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T09:22:49.217464+00:00",
+        "elapsed_s": 37.450321,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 11,
+        "position": 3076,
+        "speed": -50,
+        "voltage_v": 8.0,
+        "temperature_c": 30,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "12": {
+      "samples": 100333,
+      "fault_samples": 1,
+      "max_abs_current_ma": 6.5,
+      "peak": {
+        "utc": "2026-10-15T09:22:18.221348+00:00",
+        "elapsed_s": 6.454206,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 12,
+        "position": 3975,
+        "speed": 0,
+        "voltage_v": 7.9,
+        "temperature_c": 28,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "first_elapsed_s": 0.033934,
+      "last_elapsed_s": 2411.153206,
+      "voltage_v": 7.8,
+      "min_voltage_v": 3.9,
+      "max_voltage_v": 8.0,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T09:34:15.962953+00:00",
+        "elapsed_s": 724.195826,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 12,
+        "position": 3838,
+        "speed": 0,
+        "voltage_v": 3.9,
+        "temperature_c": 29,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 1,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T09:22:51.547153+00:00",
+        "elapsed_s": 39.780012,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 12,
+        "position": 4027,
+        "speed": 0,
+        "voltage_v": 8.0,
+        "temperature_c": 28,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    }
+  },
+  "errors": [
+    {
+      "elapsed_s": 69.50616645399896,
+      "message": "Leader position 3795 outside recorded range 3817..5065"
+    },
+    {
+      "elapsed_s": 263.65517943600025,
+      "message": "Leader position 4327 outside recorded range 1839..4310"
+    },
+    {
+      "elapsed_s": 287.13909046200024,
+      "message": "Leader position 4337 outside recorded range 1839..4310"
+    },
+    {
+      "elapsed_s": 545.6789006710005,
+      "message": "Leader position 4328 outside recorded range 1839..4310"
+    },
+    {
+      "elapsed_s": 642.042924202,
+      "message": "Leader position 4330 outside recorded range 1839..4310"
+    },
+    {
+      "elapsed_s": 724.1958888989993,
+      "message": "ID 12: servo reports status 0x01; ошибка напряжения питания; U=3.9 V, I=0.000 A"
+    },
+    {
+      "elapsed_s": 724.1966239550002,
+      "message": "ID 13: cannot set hold target (fault or outside limits)"
+    },
+    {
+      "elapsed_s": 724.1979232020003,
+      "message": "ID 15: cannot set hold target (fault or outside limits)"
+    },
+    {
+      "elapsed_s": 724.1985834049992,
+      "message": "ID 16: cannot set hold target (fault or outside limits)"
+    },
+    {
+      "elapsed_s": 724.199244039999,
+      "message": "ID 17: cannot set hold target (fault or outside limits)"
+    },
+    {
+      "elapsed_s": 724.1999496999997,
+      "message": "ID 18: cannot set hold target (fault or outside limits)"
+    },
+    {
+      "elapsed_s": 725.2067917829991,
+      "message": "ID 13: status 0x01 reading register 3"
+    },
+    {
+      "elapsed_s": 726.2147139400004,
+      "message": "ID 13: status 0x01 reading register 3"
+    },
+    {
+      "elapsed_s": 727.2526557649999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 728.2907843889989,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 729.3301270569991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 730.369512497,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 731.4093597480005,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 732.4474230329997,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 733.4865300969996,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 734.5261584719992,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 735.5645502509997,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 736.603733300999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 737.6437808649989,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 738.6839724010006,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 739.7235996939999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 740.7616029309993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 741.8019661919989,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 742.8421299580004,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 743.8815401070005,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 744.9196139029991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 745.9600232039993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 746.9988618379994,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 748.0383846290006,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 749.0782343449991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 750.1185043589994,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 751.1565051260004,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 752.1966536540003,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 753.2358053970001,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 754.2755807180001,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 755.3150981349991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 756.3531774250005,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 757.3948830709996,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 758.4333180979993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 759.4709804459999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 760.5622674709994,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 761.601687806,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 762.6418564960004,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 763.680820698999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 764.7216520559996,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 765.7618051369991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 766.7998586769991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 767.8401569950001,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 768.8790786749996,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 769.9192171470004,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 770.956859513999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 771.9972438419991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 773.0364388460002,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 774.075056796999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 775.1167800370004,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 776.1571141799996,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 777.1974670969994,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 778.237614239999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 779.2777893429993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 780.3173290399991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 781.3571102259993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 782.3982171200005,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 783.4391257909992,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 784.4790841569993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 785.5192926189993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 786.5595649539991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 787.5993822349992,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 788.6392918540005,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 789.6809873469992,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 790.7205343299993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 791.7598948710001,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 792.7991184929997,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 793.8387235509999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 794.8791876239993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 795.9194745730001,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 796.9597254359996,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 797.9995784170005,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 799.0395123529997,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 800.0782406279995,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 811.4085765559994,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 812.4501853269994,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 813.4906607180001,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 814.531642390999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 815.5725567629997,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 816.613365322999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 817.6534350439997,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 818.6929973499991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 819.7329419469988,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 820.7731553449994,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 821.8138773289993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 822.8547414099994,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 823.8942042969993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 824.9339176960002,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 825.9747286809998,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 827.015616454999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 828.0568504109997,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 829.0962637089997,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 830.1382942700002,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 831.1803765330005,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 832.2206158779991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 833.260608569999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 834.2999467119989,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 835.3393251769994,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 836.3779028619992,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 837.4163567029991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 838.4566420619994,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 839.4958935510003,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 840.5362062389995,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 841.5763456059994,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 842.6161555889994,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 843.6563811409997,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 844.694949789,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 845.7350276439993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 846.7759692039999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 847.8152253600001,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 848.8553571529992,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 849.8970842769995,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 850.9371972650006,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 851.9747742380005,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 853.014687547,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 854.0534888330003,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 855.0942067300002,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 856.1362220230003,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 857.1762971449989,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 858.2154779350003,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 859.2547910119993,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 860.2952122459992,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 861.334382826999,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 862.3742000629991,
+      "message": "ID 13: timeout reading register 3"
+    },
+    {
+      "elapsed_s": 864.8265799700002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 865.8354588879993,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 866.8389787579999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 867.8431431879999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 868.8465979699995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 869.849907021,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 870.8536356160002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 871.8570921110004,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 872.8604459830003,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 873.8641855269998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 874.8675793080001,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 875.871520535,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 876.8765667829994,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 877.8804749419996,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 878.8842591479988,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 879.8877421019988,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 880.8921075639992,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 881.8956192389996,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 882.8992941790002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 883.9027867299992,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 884.907761118,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 885.9109258589997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 886.9143790790004,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 887.9175517019994,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 888.9222746689993,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 889.9257041849996,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 890.9299944409995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 891.9340276029998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 892.9378753639994,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 893.941251283999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 894.9445897669993,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 895.9479558900002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 896.9514720030002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 897.9549563990004,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 898.958324244999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 899.9632253620002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 900.9667365659989,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 901.9701925909994,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 902.9738634919995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 903.9772708,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 904.9819004669989,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 905.9851601179998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 906.9888044420004,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 907.9925486259999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 908.9980734759993,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 910.0046163070001,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 911.0079581770005,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 912.0113856099997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 913.0149190350003,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 914.0183228360002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 915.0245687530005,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 916.0279075859999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 917.0318581419997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 918.0355642659997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 919.0389342859999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 920.0452745639996,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 921.0486590199998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 922.0540093540003,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 923.0578620929991,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 924.062706536999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 925.0702229819999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 926.074060465,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 927.0781989389998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 928.1767636579989,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 929.1823904789999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 930.1862501209998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 931.1897055659992,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 932.1935102489988,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 933.1972739270004,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 934.2010200839995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 935.2055363179988,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 936.2095025010003,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 937.2134295439992,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 938.2182003859998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 939.2225150359991,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 940.2275269010006,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 941.231990979999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 942.236267291999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 943.2404816719991,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 944.2452065199996,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 945.2511607830002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 946.2556212250001,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 947.2603692350003,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 948.2649922309993,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 949.2695691329991,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 950.2768455559999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 951.2816051280006,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 952.2856472980002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 953.2901554269993,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 954.2951549099998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 955.3003895969996,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 956.3048936579999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 957.3092408579996,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 958.313898896,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 959.3186252369997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 960.3239982340001,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 961.3289728309992,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 962.3334296689991,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 963.337487847999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 964.3425772329992,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 965.3468417749991,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 966.350627161999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 967.3555979239991,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 968.3612418379998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 969.3655576809997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 970.3705066530001,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 971.3753342,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 972.3794183539994,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 973.383745707999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 974.3878424249997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 975.3947170030006,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 976.4009540549996,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 977.4053644779997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 978.4098655239995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 979.4142512529997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 980.4183759320003,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 981.4221494289995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 982.4270316009988,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 983.431440241,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 984.4370169329995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 985.4428333470005,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 986.447055319999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 987.4510592909992,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 988.4552262550005,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 989.4599530260002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 990.4641299089999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 991.4683977029999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 992.473212973,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 993.7077929099996,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 994.7121002579988,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 995.7166264799998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 996.7214530109995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 997.72599954,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 998.730777625,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 999.736378562,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1000.7405103839992,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1001.745778982,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1002.7513753490002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1003.7557177589988,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1004.7602684439989,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1005.7649568880006,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1006.769823061999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1007.7742508459996,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1008.7784068210003,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1009.7835329819991,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1010.7880648039991,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1011.792519527,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1012.7973777459993,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1013.8018718299991,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1014.8062956969989,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1015.8106692849997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1016.8161938630001,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1017.821105736999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1018.8259797840001,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1019.831345478,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1020.836184460999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1021.8403392939999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1022.844928941,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1023.8497133359997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1034.5813135280005,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1035.5882200849992,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1036.5926795960004,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1037.5975821049997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1038.6021367270005,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1039.6066269040002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1040.6108284399998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1041.6153733949996,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1042.6203951799998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1043.6251876000006,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1044.629582353,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1045.634891435,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1046.6422271739993,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1047.6464448709994,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1048.6511746289998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1049.6578503299988,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1050.6622245679991,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1051.666482626999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1052.6713636559998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1053.676029799999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1054.7900330419998,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1055.7951969919995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1056.8003997319993,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1057.8049519809992,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1058.8097614130002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1059.8145113070004,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1060.819170036999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1061.8243852199994,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1062.8292846229997,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1063.8341844669994,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1064.838500800999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1065.8436311690002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1066.8482805740005,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1067.8539038999988,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1068.858957212,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1069.8641583379995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1070.8688647139988,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1071.8740390530002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1072.8784537739994,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1073.883285865999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1074.8880149340002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1075.892604368999,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1076.8975220560005,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1077.902952515,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1078.9085006749992,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1079.9135011319995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1080.9182578889995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1081.9233128119995,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1082.9280178150002,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1083.9335677300005,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1084.9389627149994,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    },
+    {
+      "elapsed_s": 1096.1531725290006,
+      "message": "[Errno 2] could not open port /dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00: [Errno 2] No such file or directory: '/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6081918-if00'"
+    }
+  ]
+}

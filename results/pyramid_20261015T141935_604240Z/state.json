@@ -1,0 +1,26 @@
+{
+  "outcome": "error",
+  "completed_steps": 30,
+  "current": {
+    "cube": "cube_2",
+    "arm": "right",
+    "name": "lift",
+    "target": [
+      2042,
+      1633,
+      2332,
+      2528,
+      1070,
+      1313
+    ],
+    "dwell": 0
+  },
+  "resumed_from": null,
+  "scene_sha256": "68670d785d547b21e8f081ff75ae62374865b1348fcfdce77504b2688feaa8e3",
+  "startup_parking_completed": [
+    "left",
+    "right"
+  ],
+  "error": "ID 18: servo reports status 0x20; U=7.8 V, I=0.189 A",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

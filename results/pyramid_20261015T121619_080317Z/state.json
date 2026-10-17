@@ -1,0 +1,22 @@
+{
+  "outcome": "error",
+  "completed_steps": 19,
+  "current": {
+    "cube": "cube_3",
+    "arm": "left",
+    "name": "pick",
+    "target": [
+      2125,
+      1972,
+      2933,
+      1813,
+      3150,
+      1831
+    ],
+    "dwell": 0
+  },
+  "resumed_from": "results/pyramid_20261015T121458_487174Z",
+  "scene_sha256": "caee7f10d94b50d2fb5e471c68cec433702927d3fada88b3493ace0a22e07c25",
+  "error": "right: рука должна быть в показанной парковочной позе вне общей зоны",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

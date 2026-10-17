@@ -1,0 +1,7 @@
+servo_id,max_abs_current_ma,max_abs_current_a,peak_utc,peak_position,peak_phase,samples,fault_samples
+1,0.0,0.0,2026-10-09T10:01:51.028005+00:00,2308,preflight,1,0
+2,0.0,0.0,2026-10-09T10:01:51.029139+00:00,1120,preflight,1,0
+3,0.0,0.0,2026-10-09T10:01:51.030286+00:00,3177,preflight,1,0
+4,,,,,,0,0
+5,,,,,,0,0
+6,,,,,,0,0

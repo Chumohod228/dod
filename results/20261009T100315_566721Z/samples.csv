@@ -1,0 +1,4 @@
+utc,elapsed_s,phase,servo_id,target_position,position,speed,voltage_v,temperature_c,moving,current_raw,current_ma,abs_current_ma,status
+2026-10-09T10:03:15.572048+00:00,0.002644,preflight,1,,2223,0,7.6,26,0,0,0.0,0.0,0
+2026-10-09T10:03:15.573207+00:00,0.00381,preflight,2,,1312,0,7.5,26,0,0,0.0,0.0,0
+2026-10-09T10:03:15.574374+00:00,0.004967,preflight,3,,3178,0,7.5,26,0,0,0.0,0.0,0

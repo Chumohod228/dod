@@ -1,0 +1,100 @@
+{
+  "servos": {
+    "7": {
+      "previous_raw": 129,
+      "continuous": 129,
+      "minimum": -811,
+      "maximum": 1413,
+      "wraps": 6,
+      "samples": 23530,
+      "ambiguous_steps": 0,
+      "span_ticks": 2224,
+      "span_degrees": 195.46875,
+      "proposed_centered_limits": [
+        935,
+        3159
+      ],
+      "proposed_coordinate_shift": 1746
+    },
+    "8": {
+      "previous_raw": 1720,
+      "continuous": 1720,
+      "minimum": 1608,
+      "maximum": 3974,
+      "wraps": 0,
+      "samples": 23530,
+      "ambiguous_steps": 0,
+      "span_ticks": 2366,
+      "span_degrees": 207.94921875,
+      "proposed_centered_limits": [
+        864,
+        3230
+      ],
+      "proposed_coordinate_shift": -744
+    },
+    "9": {
+      "previous_raw": 433,
+      "continuous": 433,
+      "minimum": -1782,
+      "maximum": 435,
+      "wraps": 4,
+      "samples": 23530,
+      "ambiguous_steps": 0,
+      "span_ticks": 2217,
+      "span_degrees": 194.853515625,
+      "proposed_centered_limits": [
+        939,
+        3156
+      ],
+      "proposed_coordinate_shift": 2721
+    },
+    "10": {
+      "previous_raw": 3767,
+      "continuous": 3767,
+      "minimum": 1839,
+      "maximum": 4310,
+      "wraps": 4,
+      "samples": 23530,
+      "ambiguous_steps": 0,
+      "span_ticks": 2471,
+      "span_degrees": 217.177734375,
+      "proposed_centered_limits": [
+        812,
+        3283
+      ],
+      "proposed_coordinate_shift": -1027
+    },
+    "11": {
+      "previous_raw": 677,
+      "continuous": 4773,
+      "minimum": 2054,
+      "maximum": 5878,
+      "wraps": 1,
+      "samples": 23530,
+      "ambiguous_steps": 0,
+      "span_ticks": 3824,
+      "span_degrees": 336.09375,
+      "proposed_centered_limits": [
+        135,
+        3959
+      ],
+      "proposed_coordinate_shift": -1919
+    },
+    "12": {
+      "previous_raw": 3828,
+      "continuous": 3828,
+      "minimum": 3817,
+      "maximum": 5065,
+      "wraps": 2,
+      "samples": 23530,
+      "ambiguous_steps": 0,
+      "span_ticks": 1248,
+      "span_degrees": 109.6875,
+      "proposed_centered_limits": [
+        1423,
+        2671
+      ],
+      "proposed_coordinate_shift": -2394
+    }
+  }
+}

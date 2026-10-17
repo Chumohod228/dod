@@ -1,0 +1,45 @@
+{
+  "port": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6085543-if00",
+  "read_only": true,
+  "servos": {
+    "1": {
+      "model": 777,
+      "stored_id": 1,
+      "status": 0,
+      "registers": {
+        "9": {
+          "hex": "0000ff0f",
+          "status": 0
+        },
+        "18": {
+          "hex": "0c",
+          "status": 0
+        },
+        "31": {
+          "hex": "0000",
+          "status": 0
+        },
+        "33": {
+          "hex": "00",
+          "status": 0
+        },
+        "40": {
+          "hex": "00",
+          "status": 0
+        },
+        "42": {
+          "hex": "0000",
+          "status": 0
+        },
+        "55": {
+          "hex": "01",
+          "status": 0
+        },
+        "56": {
+          "hex": "6a0a0000000049190000006a0a0000",
+          "status": 0
+        }
+      }
+    }
+  }
+}

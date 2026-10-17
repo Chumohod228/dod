@@ -1,0 +1,26 @@
+{
+  "outcome": "error",
+  "completed_steps": 15,
+  "current": {
+    "cube": "cube_4",
+    "arm": "right",
+    "name": "release",
+    "target": [
+      1763,
+      2258,
+      1970,
+      2678,
+      1129,
+      2104
+    ],
+    "dwell": 0.5
+  },
+  "resumed_from": null,
+  "scene_sha256": "de876482a321234e45dce941e78f416e93b29397c88fe96d6a391b26f6cb4ea0",
+  "startup_parking_completed": [
+    "left",
+    "right"
+  ],
+  "error": "left: рука должна быть в показанной парковочной позе вне общей зоны",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

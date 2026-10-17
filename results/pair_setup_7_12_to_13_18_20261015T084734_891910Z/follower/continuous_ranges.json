@@ -1,0 +1,100 @@
+{
+  "servos": {
+    "13": {
+      "previous_raw": 2099,
+      "continuous": 2099,
+      "minimum": 1123,
+      "maximum": 3443,
+      "wraps": 0,
+      "samples": 23530,
+      "ambiguous_steps": 0,
+      "span_ticks": 2320,
+      "span_degrees": 203.90625,
+      "proposed_centered_limits": [
+        887,
+        3207
+      ],
+      "proposed_coordinate_shift": -236
+    },
+    "14": {
+      "previous_raw": 821,
+      "continuous": 821,
+      "minimum": 808,
+      "maximum": 3202,
+      "wraps": 0,
+      "samples": 23530,
+      "ambiguous_steps": 0,
+      "span_ticks": 2394,
+      "span_degrees": 210.41015625,
+      "proposed_centered_limits": [
+        850,
+        3244
+      ],
+      "proposed_coordinate_shift": 42
+    },
+    "15": {
+      "previous_raw": 3072,
+      "continuous": 3072,
+      "minimum": 872,
+      "maximum": 3080,
+      "wraps": 0,
+      "samples": 23530,
+      "ambiguous_steps": 0,
+      "span_ticks": 2208,
+      "span_degrees": 194.0625,
+      "proposed_centered_limits": [
+        943,
+        3151
+      ],
+      "proposed_coordinate_shift": 71
+    },
+    "16": {
+      "previous_raw": 2911,
+      "continuous": 2911,
+      "minimum": 799,
+      "maximum": 3200,
+      "wraps": 0,
+      "samples": 23530,
+      "ambiguous_steps": 0,
+      "span_ticks": 2401,
+      "span_degrees": 211.025390625,
+      "proposed_centered_limits": [
+        847,
+        3248
+      ],
+      "proposed_coordinate_shift": 48
+    },
+    "17": {
+      "previous_raw": 3025,
+      "continuous": 3025,
+      "minimum": 72,
+      "maximum": 3900,
+      "wraps": 0,
+      "samples": 23530,
+      "ambiguous_steps": 0,
+      "span_ticks": 3828,
+      "span_degrees": 336.4453125,
+      "proposed_centered_limits": [
+        133,
+        3961
+      ],
+      "proposed_coordinate_shift": 61
+    },
+    "18": {
+      "previous_raw": 989,
+      "continuous": 989,
+      "minimum": 899,
+      "maximum": 2400,
+      "wraps": 0,
+      "samples": 23530,
+      "ambiguous_steps": 0,
+      "span_ticks": 1501,
+      "span_degrees": 131.923828125,
+      "proposed_centered_limits": [
+        1297,
+        2798
+      ],
+      "proposed_coordinate_shift": 398
+    }
+  }
+}

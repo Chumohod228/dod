@@ -1,0 +1,21 @@
+{
+  "outcome": "error",
+  "completed_steps": 0,
+  "current": {
+    "cube": "cube_5",
+    "arm": "left",
+    "name": "pick_approach",
+    "target": [
+      2672,
+      2314,
+      1782,
+      3198,
+      3049,
+      2253
+    ],
+    "dwell": 0
+  },
+  "scene_sha256": "46890408ae4c497ba01549d31041648e400f30f9d1d4dd980901d76395224221",
+  "error": "cube_5/pick_approach: цель не достигнута за отведённое время",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

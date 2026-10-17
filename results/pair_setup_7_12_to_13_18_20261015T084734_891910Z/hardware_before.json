@@ -1,0 +1,110 @@
+{
+  "7": {
+    "identity": "09030700",
+    "limits": "0000ff0f",
+    "phase": "0c",
+    "offset": "0000",
+    "mode": "00",
+    "torque": "00",
+    "lock": "01"
+  },
+  "8": {
+    "identity": "09030800",
+    "limits": "0000ff0f",
+    "phase": "0c",
+    "offset": "0000",
+    "mode": "00",
+    "torque": "00",
+    "lock": "01"
+  },
+  "9": {
+    "identity": "09030900",
+    "limits": "0000ff0f",
+    "phase": "0c",
+    "offset": "0000",
+    "mode": "00",
+    "torque": "00",
+    "lock": "01"
+  },
+  "10": {
+    "identity": "09030a00",
+    "limits": "0000ff0f",
+    "phase": "0c",
+    "offset": "0000",
+    "mode": "00",
+    "torque": "00",
+    "lock": "01"
+  },
+  "11": {
+    "identity": "09030b00",
+    "limits": "0000ff0f",
+    "phase": "0c",
+    "offset": "0000",
+    "mode": "00",
+    "torque": "00",
+    "lock": "01"
+  },
+  "12": {
+    "identity": "09030c00",
+    "limits": "0000ff0f",
+    "phase": "0c",
+    "offset": "0000",
+    "mode": "00",
+    "torque": "00",
+    "lock": "01"
+  },
+  "13": {
+    "identity": "09030d00",
+    "limits": "0000ff0f",
+    "phase": "0c",
+    "offset": "0000",
+    "mode": "00",
+    "torque": "00",
+    "lock": "01"
+  },
+  "14": {
+    "identity": "09030e00",
+    "limits": "0000ff0f",
+    "phase": "0c",
+    "offset": "0000",
+    "mode": "00",
+    "torque": "00",
+    "lock": "01"
+  },
+  "15": {
+    "identity": "09030f00",
+    "limits": "0000ff0f",
+    "phase": "0c",
+    "offset": "0000",
+    "mode": "00",
+    "torque": "00",
+    "lock": "01"
+  },
+  "16": {
+    "identity": "09031000",
+    "limits": "0000ff0f",
+    "phase": "0c",
+    "offset": "0000",
+    "mode": "00",
+    "torque": "00",
+    "lock": "01"
+  },
+  "17": {
+    "identity": "09031100",
+    "limits": "0000ff0f",
+    "phase": "0c",
+    "offset": "0000",
+    "mode": "00",
+    "torque": "00",
+    "lock": "01"
+  },
+  "18": {
+    "identity": "09031200",
+    "limits": "0000ff0f",
+    "phase": "0c",
+    "offset": "0000",
+    "mode": "00",
+    "torque": "00",
+    "lock": "01"
+  }
+}

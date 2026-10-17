@@ -1,0 +1,101 @@
+{
+  "servos": {
+    "19": {
+      "previous_raw": 2044,
+      "continuous": 2044,
+      "minimum": 905,
+      "maximum": 2877,
+      "wraps": 0,
+      "samples": 7364,
+      "ambiguous_steps": 0,
+      "span_ticks": 1972,
+      "span_degrees": 173.3203125,
+      "proposed_centered_limits": [
+        1061,
+        3033
+      ],
+      "proposed_coordinate_shift": 156
+    },
+    "20": {
+      "previous_raw": 796,
+      "continuous": 796,
+      "minimum": 784,
+      "maximum": 3276,
+      "wraps": 0,
+      "samples": 7364,
+      "ambiguous_steps": 0,
+      "span_ticks": 2492,
+      "span_degrees": 219.0234375,
+      "proposed_centered_limits": [
+        801,
+        3293
+      ],
+      "proposed_coordinate_shift": 17
+    },
+    "21": {
+      "previous_raw": 3095,
+      "continuous": 3095,
+      "minimum": 896,
+      "maximum": 3098,
+      "wraps": 0,
+      "samples": 7364,
+      "ambiguous_steps": 0,
+      "span_ticks": 2202,
+      "span_degrees": 193.53515625,
+      "proposed_centered_limits": [
+        946,
+        3148
+      ],
+      "proposed_coordinate_shift": 50
+    },
+    "22": {
+      "previous_raw": 2923,
+      "continuous": 2923,
+      "minimum": 761,
+      "maximum": 3259,
+      "wraps": 0,
+      "samples": 7364,
+      "ambiguous_steps": 0,
+      "span_ticks": 2498,
+      "span_degrees": 219.55078125,
+      "proposed_centered_limits": [
+        798,
+        3296
+      ],
+      "proposed_coordinate_shift": 37
+    },
+    "23": {
+      "previous_raw": 3469,
+      "continuous": 7565,
+      "minimum": 4065,
+      "maximum": 7568,
+      "wraps": 1,
+      "samples": 1399,
+      "ambiguous_steps": 0,
+      "span_ticks": 3503,
+      "span_degrees": 307.880859375,
+      "proposed_centered_limits": [
+        296,
+        3799
+      ],
+      "proposed_coordinate_shift": -3769
+    },
+    "24": {
+      "previous_raw": 1350,
+      "continuous": 1350,
+      "minimum": 1326,
+      "maximum": 2583,
+      "wraps": 0,
+      "samples": 7364,
+      "ambiguous_steps": 0,
+      "span_ticks": 1257,
+      "span_degrees": 110.478515625,
+      "proposed_centered_limits": [
+        1419,
+        2676
+      ],
+      "proposed_coordinate_shift": 93
+    }
+  },
+  "retry_source_23": "/home/chumohod/dod/results/second_pair_setup_20261015T090100_036935Z/manual_retry_23_20261015T090812_317139Z"
+}

@@ -1,0 +1,49 @@
+{
+  "outcome": "stopped",
+  "elapsed_s": 81.78345937500035,
+  "note": "Observed manual extrema, not verified collision-free limits",
+  "servos": {
+    "1": {
+      "min": 720,
+      "max": 3449,
+      "current": 1996,
+      "samples": 4047,
+      "errors": 0
+    },
+    "2": {
+      "min": 1054,
+      "max": 3604,
+      "current": 1097,
+      "samples": 4047,
+      "errors": 0
+    },
+    "3": {
+      "min": 195,
+      "max": 2563,
+      "current": 2535,
+      "samples": 4047,
+      "errors": 0
+    },
+    "4": {
+      "min": 621,
+      "max": 3086,
+      "current": 2734,
+      "samples": 4047,
+      "errors": 0
+    },
+    "5": {
+      "min": 0,
+      "max": 4087,
+      "current": 161,
+      "samples": 4047,
+      "errors": 0
+    },
+    "6": {
+      "min": 1580,
+      "max": 3030,
+      "current": 1581,
+      "samples": 4047,
+      "errors": 0
+    }
+  }
+}

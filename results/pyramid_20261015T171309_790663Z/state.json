@@ -1,0 +1,10 @@
+{
+  "operation": "assemble",
+  "outcome": "error",
+  "completed_steps": 0,
+  "current": null,
+  "resumed_from": null,
+  "scene_sha256": "5af7bcdc5295db1ed749984772220a4a37ecf931bd28c5c75751d62313cdd543",
+  "error": "ID 6: status 0x20 reading register 3",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

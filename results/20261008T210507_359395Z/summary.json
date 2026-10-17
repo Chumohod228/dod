@@ -1,0 +1,207 @@
+{
+  "outcome": "error",
+  "config": {
+    "port": "/dev/ttyACM0",
+    "baud": 1000000,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "duration": 60.0,
+    "hz": 50,
+    "timeout": 0.03,
+    "move_interval": 1,
+    "max_step": 4095,
+    "min_separation": 0.35,
+    "speed": 1000,
+    "acceleration": 50,
+    "limits": "/home/chumohod/dod/limits.json",
+    "seed": 1628826032,
+    "output": null,
+    "resolved_limits": {
+      "1": [
+        1070,
+        3025
+      ],
+      "2": [
+        866,
+        3229
+      ],
+      "3": [
+        919,
+        3176
+      ],
+      "4": [
+        1058,
+        3036
+      ],
+      "5": [
+        1995,
+        2099
+      ],
+      "6": [
+        1791,
+        2304
+      ]
+    }
+  },
+  "duration_s": 47.320135413000116,
+  "peak_definition": "max(abs(signed current)) over valid sampled telemetry",
+  "current_ma_per_tick": 6.5,
+  "bad_checksums": 0,
+  "ignored_packets": 0,
+  "servos": {
+    "1": {
+      "samples": 2331,
+      "fault_samples": 0,
+      "max_abs_current_ma": 123.5,
+      "peak": {
+        "utc": "2026-10-08T21:05:32.848064+00:00",
+        "elapsed_s": 25.487406,
+        "phase": "active",
+        "target_position": 2561,
+        "servo_id": 1,
+        "position": 1498,
+        "speed": 250,
+        "voltage_v": 7.5,
+        "temperature_c": 27,
+        "moving": 1,
+        "current_raw": 19,
+        "current_ma": 123.5,
+        "status": 0,
+        "abs_current_ma": 123.5
+      },
+      "first_elapsed_s": 0.001938,
+      "last_elapsed_s": 47.317116
+    },
+    "2": {
+      "samples": 2331,
+      "fault_samples": 0,
+      "max_abs_current_ma": 1248.0,
+      "peak": {
+        "utc": "2026-10-08T21:05:27.913559+00:00",
+        "elapsed_s": 20.552893,
+        "phase": "active",
+        "target_position": 2315,
+        "servo_id": 2,
+        "position": 1432,
+        "speed": 700,
+        "voltage_v": 6.5,
+        "temperature_c": 27,
+        "moving": 1,
+        "current_raw": 192,
+        "current_ma": 1248.0,
+        "status": 0,
+        "abs_current_ma": 1248.0
+      },
+      "first_elapsed_s": 0.0028,
+      "last_elapsed_s": 47.31772
+    },
+    "3": {
+      "samples": 2330,
+      "fault_samples": 0,
+      "max_abs_current_ma": 461.5,
+      "peak": {
+        "utc": "2026-10-08T21:05:27.832717+00:00",
+        "elapsed_s": 20.472052,
+        "phase": "active",
+        "target_position": 2121,
+        "servo_id": 3,
+        "position": 1036,
+        "speed": 350,
+        "voltage_v": 6.6,
+        "temperature_c": 29,
+        "moving": 1,
+        "current_raw": 71,
+        "current_ma": 461.5,
+        "status": 0,
+        "abs_current_ma": 461.5
+      },
+      "first_elapsed_s": 0.003687,
+      "last_elapsed_s": 47.318307
+    },
+    "4": {
+      "samples": 2330,
+      "fault_samples": 0,
+      "max_abs_current_ma": 104.0,
+      "peak": {
+        "utc": "2026-10-08T21:05:17.833873+00:00",
+        "elapsed_s": 10.473206,
+        "phase": "active",
+        "target_position": 1621,
+        "servo_id": 4,
+        "position": 2092,
+        "speed": -1000,
+        "voltage_v": 7.8,
+        "temperature_c": 29,
+        "moving": 1,
+        "current_raw": 16,
+        "current_ma": 104.0,
+        "status": 0,
+        "abs_current_ma": 104.0
+      },
+      "first_elapsed_s": 0.004517,
+      "last_elapsed_s": 47.318858
+    },
+    "5": {
+      "samples": 2330,
+      "fault_samples": 0,
+      "max_abs_current_ma": 32.5,
+      "peak": {
+        "utc": "2026-10-08T21:05:42.037168+00:00",
+        "elapsed_s": 34.676502,
+        "phase": "active",
+        "target_position": 2096,
+        "servo_id": 5,
+        "position": 2026,
+        "speed": 0,
+        "voltage_v": 7.8,
+        "temperature_c": 26,
+        "moving": 1,
+        "current_raw": 5,
+        "current_ma": 32.5,
+        "status": 0,
+        "abs_current_ma": 32.5
+      },
+      "first_elapsed_s": 0.005333,
+      "last_elapsed_s": 47.319401
+    },
+    "6": {
+      "samples": 2330,
+      "fault_samples": 0,
+      "max_abs_current_ma": 45.5,
+      "peak": {
+        "utc": "2026-10-08T21:05:07.574023+00:00",
+        "elapsed_s": 0.213355,
+        "phase": "active",
+        "target_position": 2271,
+        "servo_id": 6,
+        "position": 1889,
+        "speed": 650,
+        "voltage_v": 7.6,
+        "temperature_c": 28,
+        "moving": 1,
+        "current_raw": 7,
+        "current_ma": 45.5,
+        "status": 0,
+        "abs_current_ma": 45.5
+      },
+      "first_elapsed_s": 0.006135,
+      "last_elapsed_s": 47.319908
+    }
+  },
+  "errors": [
+    {
+      "elapsed_s": 47.31651805599995,
+      "message": "ID 2: position 3235 outside configured range"
+    },
+    {
+      "elapsed_s": 47.31775100599998,
+      "message": "ID 2: cannot set hold target (fault or outside limits)"
+    }
+  ]
+}

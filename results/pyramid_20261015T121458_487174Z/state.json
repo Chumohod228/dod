@@ -1,0 +1,22 @@
+{
+  "outcome": "error",
+  "completed_steps": 6,
+  "current": {
+    "cube": "cube_5",
+    "arm": "left",
+    "name": "release",
+    "target": [
+      2405,
+      2625,
+      1512,
+      3150,
+      2888,
+      2028
+    ],
+    "dwell": 0.5
+  },
+  "resumed_from": "results/pyramid_20261015T121357_196876Z",
+  "scene_sha256": "2dde1572a7ab28da09061361a641b890ee687885e16c33292a956e8cc68d5a46",
+  "error": "cube_5/release: цель не достигнута за отведённое время",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

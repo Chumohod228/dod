@@ -1,0 +1,102 @@
+{
+  "note": "Observed manual ranges. Coordinate shifts are proposals, not applied to hardware.",
+  "assumption": "Each joint moves less than 2048 ticks between successive valid samples.",
+  "servos": {
+    "1": {
+      "previous_raw": 2060,
+      "continuous": 2060,
+      "minimum": 891,
+      "maximum": 2846,
+      "wraps": 0,
+      "samples": 3730,
+      "ambiguous_steps": 0,
+      "span_ticks": 1955,
+      "span_degrees": 171.826171875,
+      "proposed_centered_limits": [
+        1070,
+        3025
+      ],
+      "proposed_coordinate_shift": 179
+    },
+    "2": {
+      "previous_raw": 793,
+      "continuous": 793,
+      "minimum": 743,
+      "maximum": 3106,
+      "wraps": 0,
+      "samples": 3730,
+      "ambiguous_steps": 0,
+      "span_ticks": 2363,
+      "span_degrees": 207.685546875,
+      "proposed_centered_limits": [
+        866,
+        3229
+      ],
+      "proposed_coordinate_shift": 123
+    },
+    "3": {
+      "previous_raw": 3215,
+      "continuous": 3215,
+      "minimum": 959,
+      "maximum": 3216,
+      "wraps": 0,
+      "samples": 3730,
+      "ambiguous_steps": 0,
+      "span_ticks": 2257,
+      "span_degrees": 198.369140625,
+      "proposed_centered_limits": [
+        919,
+        3176
+      ],
+      "proposed_coordinate_shift": -40
+    },
+    "4": {
+      "previous_raw": 2033,
+      "continuous": 2033,
+      "minimum": 928,
+      "maximum": 2906,
+      "wraps": 0,
+      "samples": 3730,
+      "ambiguous_steps": 0,
+      "span_ticks": 1978,
+      "span_degrees": 173.84765625,
+      "proposed_centered_limits": [
+        1058,
+        3036
+      ],
+      "proposed_coordinate_shift": 130
+    },
+    "5": {
+      "previous_raw": 3953,
+      "continuous": 3953,
+      "minimum": 3863,
+      "maximum": 3967,
+      "wraps": 0,
+      "samples": 3730,
+      "ambiguous_steps": 0,
+      "span_ticks": 104,
+      "span_degrees": 9.140625,
+      "proposed_centered_limits": [
+        1995,
+        2099
+      ],
+      "proposed_coordinate_shift": -1868
+    },
+    "6": {
+      "previous_raw": 1406,
+      "continuous": 1406,
+      "minimum": 1373,
+      "maximum": 1886,
+      "wraps": 0,
+      "samples": 3730,
+      "ambiguous_steps": 0,
+      "span_ticks": 513,
+      "span_degrees": 45.087890625,
+      "proposed_centered_limits": [
+        1791,
+        2304
+      ],
+      "proposed_coordinate_shift": 418
+    }
+  }
+}

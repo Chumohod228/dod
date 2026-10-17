@@ -1,0 +1,26 @@
+{
+  "outcome": "interrupted",
+  "completed_steps": 6,
+  "current": {
+    "cube": "cube_5",
+    "arm": "left",
+    "name": "release",
+    "target": [
+      2401,
+      2308,
+      2020,
+      3009,
+      3102,
+      2742
+    ],
+    "dwell": 0.5
+  },
+  "resumed_from": null,
+  "scene_sha256": "c7e73b37bb654a8bd01ef01d5dcfa24a2de25625bb95b99bf2a834aa94e2521e",
+  "startup_parking_completed": [
+    "left",
+    "right"
+  ],
+  "error": "Остановка пользователем",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

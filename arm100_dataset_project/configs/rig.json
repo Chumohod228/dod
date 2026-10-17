@@ -1,0 +1,86 @@
+{
+  "fps": 30,
+  "speed_ticks_s": 600,
+  "acceleration": 20,
+  "deadband_ticks": 4,
+  "retry_interval_s": 0.5,
+  "max_telemetry_age_s": 0.2,
+  "max_leader_step_ticks": 1024,
+  "shutdown": "hold",
+  "arms": {
+    "left_leader": {
+      "port": "/dev/serial/by-id/SET_LEFT_LEADER_ADAPTER",
+      "ids": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "calibration": "calibration/left_leader.json"
+    },
+    "left_follower": {
+      "port": "/dev/serial/by-id/SET_LEFT_FOLLOWER_ADAPTER",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "calibration": "calibration/left_follower.json"
+    },
+    "right_leader": {
+      "port": "/dev/serial/by-id/SET_RIGHT_LEADER_ADAPTER",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "calibration": "calibration/right_leader.json"
+    },
+    "right_follower": {
+      "port": "/dev/serial/by-id/SET_RIGHT_FOLLOWER_ADAPTER",
+      "ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "calibration": "calibration/right_follower.json"
+    }
+  },
+  "invert": {
+    "left": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "right": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ]
+  },
+  "cameras": {
+    "overhead": {
+      "serial": "SET_REALSENSE_SERIAL",
+      "width": 640,
+      "height": 480,
+      "fps": 30
+    }
+  }
+}

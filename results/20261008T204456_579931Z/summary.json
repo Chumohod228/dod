@@ -1,0 +1,187 @@
+{
+  "outcome": "error",
+  "config": {
+    "port": "/dev/ttyACM0",
+    "baud": 1000000,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "duration": 60.0,
+    "hz": 50,
+    "timeout": 0.03,
+    "move_interval": 1,
+    "max_step": 256,
+    "speed": 1000,
+    "acceleration": 50,
+    "limits": null,
+    "seed": 1605990652,
+    "output": null,
+    "resolved_limits": {
+      "1": [
+        1023,
+        3071
+      ],
+      "2": [
+        1023,
+        3071
+      ],
+      "3": [
+        1023,
+        3071
+      ],
+      "4": [
+        1023,
+        3071
+      ],
+      "5": [
+        1023,
+        3071
+      ],
+      "6": [
+        1023,
+        2047
+      ]
+    }
+  },
+  "duration_s": 0.006871347000014794,
+  "peak_definition": "max(abs(signed current)) over valid sampled telemetry",
+  "current_ma_per_tick": 6.5,
+  "bad_checksums": 0,
+  "ignored_packets": 0,
+  "servos": {
+    "1": {
+      "samples": 1,
+      "fault_samples": 0,
+      "max_abs_current_ma": 0.0,
+      "peak": {
+        "utc": "2026-10-08T20:44:56.585034+00:00",
+        "elapsed_s": 0.003789,
+        "phase": "preflight",
+        "target_position": null,
+        "servo_id": 1,
+        "position": 1988,
+        "speed": 0,
+        "voltage_v": 5.2,
+        "temperature_c": 24,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "first_elapsed_s": 0.003789,
+      "last_elapsed_s": 0.003789
+    },
+    "2": {
+      "samples": 1,
+      "fault_samples": 0,
+      "max_abs_current_ma": 0.0,
+      "peak": {
+        "utc": "2026-10-08T20:44:56.585798+00:00",
+        "elapsed_s": 0.004548,
+        "phase": "preflight",
+        "target_position": null,
+        "servo_id": 2,
+        "position": 2162,
+        "speed": 0,
+        "voltage_v": 5.1,
+        "temperature_c": 25,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "first_elapsed_s": 0.004548,
+      "last_elapsed_s": 0.004548
+    },
+    "3": {
+      "samples": 1,
+      "fault_samples": 0,
+      "max_abs_current_ma": 0.0,
+      "peak": {
+        "utc": "2026-10-08T20:44:56.586566+00:00",
+        "elapsed_s": 0.005316,
+        "phase": "preflight",
+        "target_position": null,
+        "servo_id": 3,
+        "position": 2056,
+        "speed": 0,
+        "voltage_v": 5.1,
+        "temperature_c": 26,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "first_elapsed_s": 0.005316,
+      "last_elapsed_s": 0.005316
+    },
+    "4": {
+      "samples": 1,
+      "fault_samples": 0,
+      "max_abs_current_ma": 0.0,
+      "peak": {
+        "utc": "2026-10-08T20:44:56.587284+00:00",
+        "elapsed_s": 0.006034,
+        "phase": "preflight",
+        "target_position": null,
+        "servo_id": 4,
+        "position": 1737,
+        "speed": 0,
+        "voltage_v": 5.1,
+        "temperature_c": 25,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "first_elapsed_s": 0.006034,
+      "last_elapsed_s": 0.006034
+    },
+    "5": {
+      "samples": 1,
+      "fault_samples": 0,
+      "max_abs_current_ma": 0.0,
+      "peak": {
+        "utc": "2026-10-08T20:44:56.588053+00:00",
+        "elapsed_s": 0.006805,
+        "phase": "preflight",
+        "target_position": null,
+        "servo_id": 5,
+        "position": 3256,
+        "speed": 0,
+        "voltage_v": 5.1,
+        "temperature_c": 23,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "first_elapsed_s": 0.006805,
+      "last_elapsed_s": 0.006805
+    },
+    "6": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null
+    }
+  },
+  "errors": [
+    {
+      "elapsed_s": 0.006836998999915522,
+      "message": "ID 5: initial position 3256 outside 1023..3071; set the initial pose or correct the limits first"
+    }
+  ]
+}

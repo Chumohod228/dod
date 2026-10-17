@@ -1,0 +1,25 @@
+{
+  "operation": "disassemble",
+  "outcome": "completed",
+  "completed_steps": 36,
+  "current": {
+    "cube": "cube_5",
+    "arm": "left",
+    "name": "park",
+    "target": [
+      2370,
+      787,
+      3224,
+      2953,
+      3080,
+      2734
+    ],
+    "dwell": 0
+  },
+  "resumed_from": null,
+  "scene_sha256": "5af7bcdc5295db1ed749984772220a4a37ecf931bd28c5c75751d62313cdd543",
+  "startup_parking_completed": [
+    "left",
+    "right"
+  ]
+}

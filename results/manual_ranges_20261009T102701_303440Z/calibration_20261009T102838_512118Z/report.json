@@ -1,0 +1,171 @@
+{
+  "outcome": "applied",
+  "before": {
+    "1": {
+      "model": "0903",
+      "limits": "2e04d10b",
+      "phase": "0c",
+      "offset": "8707",
+      "mode": "00",
+      "torque": "00",
+      "goal": "0000",
+      "lock": "01",
+      "position": "f008"
+    },
+    "2": {
+      "model": "0903",
+      "limits": "62039d0c",
+      "phase": "0c",
+      "offset": "ee00",
+      "mode": "00",
+      "torque": "00",
+      "goal": "0000",
+      "lock": "01",
+      "position": "c104"
+    },
+    "3": {
+      "model": "0903",
+      "limits": "9703680c",
+      "phase": "0c",
+      "offset": "d905",
+      "mode": "00",
+      "torque": "00",
+      "goal": "0000",
+      "lock": "01",
+      "position": "df0b"
+    },
+    "4": {
+      "model": "0903",
+      "limits": "2204dc0b",
+      "phase": "0c",
+      "offset": "d106",
+      "mode": "00",
+      "torque": "00",
+      "goal": "0000",
+      "lock": "01",
+      "position": "a408"
+    },
+    "5": {
+      "model": "0903",
+      "limits": "cb073308",
+      "phase": "0c",
+      "offset": "c600",
+      "mode": "00",
+      "torque": "00",
+      "goal": "0000",
+      "lock": "01",
+      "position": "1305"
+    },
+    "6": {
+      "model": "0903",
+      "limits": "ff060009",
+      "phase": "0c",
+      "offset": "a306",
+      "mode": "00",
+      "torque": "00",
+      "goal": "0000",
+      "lock": "01",
+      "position": "bc07"
+    }
+  },
+  "plan": {
+    "1": {
+      "old_offset": 1927,
+      "new_offset": -1924,
+      "offset_raw": 3972,
+      "shift": -245,
+      "limits": [
+        1374,
+        2720
+      ],
+      "expected_position": 2043,
+      "current_inside_limits": true
+    },
+    "2": {
+      "old_offset": 238,
+      "new_offset": 74,
+      "offset_raw": 74,
+      "shift": 164,
+      "limits": [
+        1340,
+        2754
+      ],
+      "expected_position": 1381,
+      "current_inside_limits": true
+    },
+    "3": {
+      "old_offset": 1497,
+      "new_offset": -1955,
+      "offset_raw": 4003,
+      "shift": -644,
+      "limits": [
+        1550,
+        2544
+      ],
+      "expected_position": 2395,
+      "current_inside_limits": true
+    },
+    "4": {
+      "old_offset": 1745,
+      "new_offset": -2026,
+      "offset_raw": 4074,
+      "shift": -325,
+      "limits": [
+        1678,
+        2416
+      ],
+      "expected_position": 1887,
+      "current_inside_limits": true
+    },
+    "5": {
+      "old_offset": 198,
+      "new_offset": -659,
+      "offset_raw": 2707,
+      "shift": 857,
+      "limits": [
+        1468,
+        2627
+      ],
+      "expected_position": 2156,
+      "current_inside_limits": true
+    },
+    "6": {
+      "old_offset": 1699,
+      "new_offset": 1860,
+      "offset_raw": 1860,
+      "shift": -161,
+      "limits": [
+        1632,
+        2463
+      ],
+      "expected_position": 1819,
+      "current_inside_limits": true
+    }
+  },
+  "verified": {
+    "1": {
+      "position": 2043,
+      "offset_error": 0
+    },
+    "2": {
+      "position": 1381,
+      "offset_error": 0
+    },
+    "3": {
+      "position": 2392,
+      "offset_error": -3
+    },
+    "4": {
+      "position": 1887,
+      "offset_error": 0
+    },
+    "5": {
+      "position": 2156,
+      "offset_error": 0
+    },
+    "6": {
+      "position": 1820,
+      "offset_error": 1
+    }
+  }
+}

@@ -1,0 +1,1041 @@
+{
+  "outcome": "interrupted",
+  "config": {
+    "leader_ids": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "follower_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "port": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6080141-if00",
+    "leader_ranges": {
+      "19": [
+        905,
+        2877
+      ],
+      "20": [
+        784,
+        3276
+      ],
+      "21": [
+        896,
+        3098
+      ],
+      "22": [
+        761,
+        3259
+      ],
+      "23": [
+        2960,
+        7007
+      ],
+      "24": [
+        1326,
+        2583
+      ]
+    },
+    "follower_limits": "/home/chumohod/dod/results/second_pair_setup_20261015T090100_036935Z/follower_limits.json",
+    "invert": [],
+    "hz": 50,
+    "speed": 600,
+    "acceleration": 50,
+    "deadband": 2,
+    "retry_interval": 0.5,
+    "timeout": 0.03,
+    "max_read_age": 0.2,
+    "max_leader_step": 1024,
+    "duration": 0,
+    "no_reconnect": false,
+    "check_only": false,
+    "output": "/home/chumohod/dod/results/second_pair_setup_20261015T090100_036935Z/teleop_20261015T173308_526605Z",
+    "pairs": {
+      "19": 1,
+      "20": 2,
+      "21": 3,
+      "22": 4,
+      "23": 5,
+      "24": 6
+    },
+    "follower_ranges": {
+      "1": [
+        1049,
+        3045
+      ],
+      "2": [
+        766,
+        3329
+      ],
+      "3": [
+        863,
+        3232
+      ],
+      "4": [
+        811,
+        3283
+      ],
+      "5": [
+        118,
+        3976
+      ],
+      "6": [
+        1302,
+        2793
+      ]
+    }
+  },
+  "duration_s": 1257.232579309999,
+  "peak_definition": "max(abs(signed current)) over valid sampled telemetry",
+  "current_ma_per_tick": 6.5,
+  "bad_checksums": 0,
+  "ignored_packets": 0,
+  "servos": {
+    "1": {
+      "samples": 57816,
+      "fault_samples": 0,
+      "max_abs_current_ma": 149.5,
+      "peak": {
+        "utc": "2026-10-15T17:49:42.884457+00:00",
+        "elapsed_s": 973.037512,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 1,
+        "position": 2335,
+        "speed": -400,
+        "voltage_v": 7.6,
+        "temperature_c": 31,
+        "moving": 1,
+        "current_raw": 23,
+        "current_ma": 149.5,
+        "status": 0,
+        "abs_current_ma": 149.5
+      },
+      "first_elapsed_s": 0.027224,
+      "last_elapsed_s": 1257.225037,
+      "voltage_v": 7.7,
+      "min_voltage_v": 6.7,
+      "max_voltage_v": 7.9,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T17:34:58.751225+00:00",
+        "elapsed_s": 110.14148,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 1,
+        "position": 2379,
+        "speed": -350,
+        "voltage_v": 6.7,
+        "temperature_c": 30,
+        "moving": 1,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T17:49:51.032876+00:00",
+        "elapsed_s": 981.185931,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 1,
+        "position": 2300,
+        "speed": 0,
+        "voltage_v": 7.9,
+        "temperature_c": 31,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      }
+    },
+    "2": {
+      "samples": 57816,
+      "fault_samples": 0,
+      "max_abs_current_ma": 715.0,
+      "peak": {
+        "utc": "2026-10-15T17:35:24.677382+00:00",
+        "elapsed_s": 136.067637,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 2,
+        "position": 2647,
+        "speed": -250,
+        "voltage_v": 7.1,
+        "temperature_c": 31,
+        "moving": 1,
+        "current_raw": 110,
+        "current_ma": 715.0,
+        "status": 0,
+        "abs_current_ma": 715.0
+      },
+      "first_elapsed_s": 0.027967,
+      "last_elapsed_s": 1257.225671,
+      "voltage_v": 7.7,
+      "min_voltage_v": 6.6,
+      "max_voltage_v": 7.8,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T17:34:58.751887+00:00",
+        "elapsed_s": 110.142142,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 2,
+        "position": 2068,
+        "speed": -250,
+        "voltage_v": 6.6,
+        "temperature_c": 31,
+        "moving": 1,
+        "current_raw": 40,
+        "current_ma": 260.0,
+        "status": 0,
+        "abs_current_ma": 260.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T17:49:52.660406+00:00",
+        "elapsed_s": 982.81346,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 2,
+        "position": 792,
+        "speed": 0,
+        "voltage_v": 7.8,
+        "temperature_c": 32,
+        "moving": 0,
+        "current_raw": 2,
+        "current_ma": 13.0,
+        "status": 0,
+        "abs_current_ma": 13.0
+      }
+    },
+    "3": {
+      "samples": 57816,
+      "fault_samples": 0,
+      "max_abs_current_ma": 825.5,
+      "peak": {
+        "utc": "2026-10-15T17:44:03.032845+00:00",
+        "elapsed_s": 654.4231,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 3,
+        "position": 2373,
+        "speed": 350,
+        "voltage_v": 7.1,
+        "temperature_c": 32,
+        "moving": 1,
+        "current_raw": 127,
+        "current_ma": 825.5,
+        "status": 0,
+        "abs_current_ma": 825.5
+      },
+      "first_elapsed_s": 0.028635,
+      "last_elapsed_s": 1257.226298,
+      "voltage_v": 7.7,
+      "min_voltage_v": 6.6,
+      "max_voltage_v": 7.8,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T17:34:58.732341+00:00",
+        "elapsed_s": 110.122596,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 3,
+        "position": 2167,
+        "speed": 0,
+        "voltage_v": 6.6,
+        "temperature_c": 31,
+        "moving": 1,
+        "current_raw": 21,
+        "current_ma": 136.5,
+        "status": 0,
+        "abs_current_ma": 136.5
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T17:49:51.075319+00:00",
+        "elapsed_s": 981.228374,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 3,
+        "position": 3224,
+        "speed": 0,
+        "voltage_v": 7.8,
+        "temperature_c": 34,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      }
+    },
+    "4": {
+      "samples": 57816,
+      "fault_samples": 0,
+      "max_abs_current_ma": 175.5,
+      "peak": {
+        "utc": "2026-10-15T17:49:29.848793+00:00",
+        "elapsed_s": 960.001848,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 4,
+        "position": 2702,
+        "speed": -400,
+        "voltage_v": 7.3,
+        "temperature_c": 31,
+        "moving": 1,
+        "current_raw": 27,
+        "current_ma": 175.5,
+        "status": 0,
+        "abs_current_ma": 175.5
+      },
+      "first_elapsed_s": 0.029313,
+      "last_elapsed_s": 1257.226932,
+      "voltage_v": 7.7,
+      "min_voltage_v": 6.5,
+      "max_voltage_v": 7.7,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T17:34:58.733009+00:00",
+        "elapsed_s": 110.123264,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 4,
+        "position": 2988,
+        "speed": 0,
+        "voltage_v": 6.5,
+        "temperature_c": 31,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T17:33:26.578020+00:00",
+        "elapsed_s": 17.968275,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 4,
+        "position": 1523,
+        "speed": 0,
+        "voltage_v": 7.7,
+        "temperature_c": 31,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "5": {
+      "samples": 57815,
+      "fault_samples": 0,
+      "max_abs_current_ma": 26.0,
+      "peak": {
+        "utc": "2026-10-15T17:35:36.794022+00:00",
+        "elapsed_s": 148.184295,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 5,
+        "position": 3276,
+        "speed": -50,
+        "voltage_v": 7.6,
+        "temperature_c": 30,
+        "moving": 1,
+        "current_raw": 4,
+        "current_ma": 26.0,
+        "status": 0,
+        "abs_current_ma": 26.0
+      },
+      "first_elapsed_s": 0.030034,
+      "last_elapsed_s": 1257.227591,
+      "voltage_v": 7.7,
+      "min_voltage_v": 6.4,
+      "max_voltage_v": 7.8,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T17:51:43.602461+00:00",
+        "elapsed_s": 1093.755516,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 5,
+        "position": 3007,
+        "speed": 0,
+        "voltage_v": 6.4,
+        "temperature_c": 30,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T17:49:51.036028+00:00",
+        "elapsed_s": 981.189082,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 5,
+        "position": 2193,
+        "speed": 0,
+        "voltage_v": 7.8,
+        "temperature_c": 30,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "6": {
+      "samples": 57815,
+      "fault_samples": 6594,
+      "max_abs_current_ma": 1085.5,
+      "peak": {
+        "utc": "2026-10-15T17:51:51.929891+00:00",
+        "elapsed_s": 1102.082945,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 6,
+        "position": 1908,
+        "speed": -50,
+        "voltage_v": 6.6,
+        "temperature_c": 36,
+        "moving": 1,
+        "current_raw": 167,
+        "current_ma": 1085.5,
+        "status": 0,
+        "abs_current_ma": 1085.5
+      },
+      "first_elapsed_s": 0.03071,
+      "last_elapsed_s": 1257.228308,
+      "voltage_v": 7.7,
+      "min_voltage_v": 5.8,
+      "max_voltage_v": 7.8,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T17:42:13.636828+00:00",
+        "elapsed_s": 545.027083,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 6,
+        "position": 1621,
+        "speed": 0,
+        "voltage_v": 5.8,
+        "temperature_c": 36,
+        "moving": 0,
+        "current_raw": 145,
+        "current_ma": 942.5,
+        "status": 0,
+        "abs_current_ma": 942.5
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T17:49:51.017576+00:00",
+        "elapsed_s": 981.170631,
+        "phase": "follower",
+        "target_position": null,
+        "servo_id": 6,
+        "position": 1326,
+        "speed": 0,
+        "voltage_v": 7.8,
+        "temperature_c": 35,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "19": {
+      "samples": 57795,
+      "fault_samples": 0,
+      "max_abs_current_ma": 6.5,
+      "peak": {
+        "utc": "2026-10-15T17:33:11.215379+00:00",
+        "elapsed_s": 2.605638,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 19,
+        "position": 1876,
+        "speed": 0,
+        "voltage_v": 7.6,
+        "temperature_c": 27,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "first_elapsed_s": 0.03134,
+      "last_elapsed_s": 1257.216614,
+      "voltage_v": 7.7,
+      "min_voltage_v": 6.7,
+      "max_voltage_v": 7.8,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T17:34:58.767163+00:00",
+        "elapsed_s": 110.157428,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 19,
+        "position": 2153,
+        "speed": -500,
+        "voltage_v": 6.7,
+        "temperature_c": 27,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T17:49:51.191173+00:00",
+        "elapsed_s": 981.344245,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 19,
+        "position": 2141,
+        "speed": 0,
+        "voltage_v": 7.8,
+        "temperature_c": 28,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "20": {
+      "samples": 57795,
+      "fault_samples": 0,
+      "max_abs_current_ma": 6.5,
+      "peak": {
+        "utc": "2026-10-15T17:33:10.150935+00:00",
+        "elapsed_s": 1.541202,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 20,
+        "position": 799,
+        "speed": 0,
+        "voltage_v": 7.6,
+        "temperature_c": 28,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "first_elapsed_s": 0.031962,
+      "last_elapsed_s": 1257.217366,
+      "voltage_v": 7.7,
+      "min_voltage_v": 6.8,
+      "max_voltage_v": 7.8,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T17:34:58.727639+00:00",
+        "elapsed_s": 110.117895,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 20,
+        "position": 1942,
+        "speed": -600,
+        "voltage_v": 6.8,
+        "temperature_c": 28,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T17:49:51.050213+00:00",
+        "elapsed_s": 981.203282,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 20,
+        "position": 833,
+        "speed": 0,
+        "voltage_v": 7.8,
+        "temperature_c": 29,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "21": {
+      "samples": 57795,
+      "fault_samples": 0,
+      "max_abs_current_ma": 6.5,
+      "peak": {
+        "utc": "2026-10-15T17:33:13.589786+00:00",
+        "elapsed_s": 4.980041,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 21,
+        "position": 3098,
+        "speed": 0,
+        "voltage_v": 7.5,
+        "temperature_c": 29,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "first_elapsed_s": 0.032592,
+      "last_elapsed_s": 1257.218141,
+      "voltage_v": 7.7,
+      "min_voltage_v": 6.7,
+      "max_voltage_v": 7.7,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T17:34:58.768606+00:00",
+        "elapsed_s": 110.158862,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 21,
+        "position": 2057,
+        "speed": -50,
+        "voltage_v": 6.7,
+        "temperature_c": 29,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T17:49:50.969324+00:00",
+        "elapsed_s": 981.122378,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 21,
+        "position": 3100,
+        "speed": 0,
+        "voltage_v": 7.7,
+        "temperature_c": 30,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "22": {
+      "samples": 57795,
+      "fault_samples": 0,
+      "max_abs_current_ma": 6.5,
+      "peak": {
+        "utc": "2026-10-15T17:33:11.801071+00:00",
+        "elapsed_s": 3.191326,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 22,
+        "position": 2927,
+        "speed": 0,
+        "voltage_v": 7.6,
+        "temperature_c": 31,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "first_elapsed_s": 0.033247,
+      "last_elapsed_s": 1257.21886,
+      "voltage_v": 7.7,
+      "min_voltage_v": 6.8,
+      "max_voltage_v": 7.8,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T17:34:58.749211+00:00",
+        "elapsed_s": 110.139467,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 22,
+        "position": 2959,
+        "speed": 0,
+        "voltage_v": 6.8,
+        "temperature_c": 31,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T17:49:51.030892+00:00",
+        "elapsed_s": 981.183948,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 22,
+        "position": 2568,
+        "speed": 350,
+        "voltage_v": 7.8,
+        "temperature_c": 31,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "23": {
+      "samples": 57795,
+      "fault_samples": 0,
+      "max_abs_current_ma": 6.5,
+      "peak": {
+        "utc": "2026-10-15T17:33:13.311066+00:00",
+        "elapsed_s": 4.701321,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 23,
+        "position": 1994,
+        "speed": 0,
+        "voltage_v": 7.7,
+        "temperature_c": 31,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "first_elapsed_s": 0.033951,
+      "last_elapsed_s": 1257.219513,
+      "voltage_v": 7.7,
+      "min_voltage_v": 6.8,
+      "max_voltage_v": 7.9,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T17:34:58.749899+00:00",
+        "elapsed_s": 110.140154,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 23,
+        "position": 788,
+        "speed": 0,
+        "voltage_v": 6.8,
+        "temperature_c": 31,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T17:50:15.171695+00:00",
+        "elapsed_s": 1005.32475,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 23,
+        "position": 1041,
+        "speed": 0,
+        "voltage_v": 7.9,
+        "temperature_c": 31,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    },
+    "24": {
+      "samples": 57795,
+      "fault_samples": 0,
+      "max_abs_current_ma": 6.5,
+      "peak": {
+        "utc": "2026-10-15T17:33:09.691565+00:00",
+        "elapsed_s": 1.081822,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 24,
+        "position": 2576,
+        "speed": 0,
+        "voltage_v": 7.6,
+        "temperature_c": 29,
+        "moving": 0,
+        "current_raw": 1,
+        "current_ma": 6.5,
+        "status": 0,
+        "abs_current_ma": 6.5
+      },
+      "first_elapsed_s": 0.034589,
+      "last_elapsed_s": 1257.220172,
+      "voltage_v": 7.7,
+      "min_voltage_v": 6.8,
+      "max_voltage_v": 7.8,
+      "min_voltage_sample": {
+        "utc": "2026-10-15T17:34:58.710319+00:00",
+        "elapsed_s": 110.10058,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 24,
+        "position": 1439,
+        "speed": 0,
+        "voltage_v": 6.8,
+        "temperature_c": 30,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "max_voltage_sample": {
+        "utc": "2026-10-15T17:49:51.032213+00:00",
+        "elapsed_s": 981.185268,
+        "phase": "leader",
+        "target_position": null,
+        "servo_id": 24,
+        "position": 1343,
+        "speed": 0,
+        "voltage_v": 7.8,
+        "temperature_c": 31,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      }
+    }
+  },
+  "errors": [
+    {
+      "elapsed_s": 112.74775377200058,
+      "message": "Leader position 2898 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 113.78905858600046,
+      "message": "Leader position 3082 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 145.7434149519977,
+      "message": "Leader position 1287 outside recorded range 1326..2583"
+    },
+    {
+      "elapsed_s": 160.49302657899898,
+      "message": "Leader position 1301 outside recorded range 1326..2583"
+    },
+    {
+      "elapsed_s": 186.5297540169995,
+      "message": "Leader position 2900 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 197.32828856999913,
+      "message": "Leader position 2903 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 198.3694428509989,
+      "message": "Leader position 2927 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 199.40570708700034,
+      "message": "Leader position 3022 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 200.44130456899802,
+      "message": "Leader position 3018 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 201.47752965700056,
+      "message": "Leader position 3018 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 202.51256311599718,
+      "message": "Leader position 3018 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 203.54854924199753,
+      "message": "Leader position 3017 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 204.58493205500054,
+      "message": "Leader position 3017 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 205.62070579200008,
+      "message": "Leader position 3017 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 206.65797830999873,
+      "message": "Leader position 2970 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 207.69399807099762,
+      "message": "Leader position 2938 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 208.7309047739982,
+      "message": "Leader position 2939 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 209.76616050099983,
+      "message": "Leader position 2941 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 210.80341531500017,
+      "message": "Leader position 2940 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 211.83932836299937,
+      "message": "Leader position 2941 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 212.87632301399935,
+      "message": "Leader position 2941 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 213.9119631270005,
+      "message": "Leader position 3036 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 219.6966719890006,
+      "message": "Leader position 2899 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 220.73606836699764,
+      "message": "Leader position 2929 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 221.7708698949973,
+      "message": "Leader position 2945 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 233.06644493599742,
+      "message": "Leader position 2905 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 234.10632411999904,
+      "message": "Leader position 3221 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 237.59234574799848,
+      "message": "Leader position 2896 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 238.63365173099737,
+      "message": "Leader position 3193 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 239.67136587499772,
+      "message": "Leader position 3013 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 240.70942895400003,
+      "message": "Leader position 2930 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 424.84773296500134,
+      "message": "Leader position 2897 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 425.8896275170009,
+      "message": "Leader position 2913 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 480.44013510900186,
+      "message": "Leader position 2895 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 481.4809741359968,
+      "message": "Leader position 3081 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 482.5185121669965,
+      "message": "Leader position 3069 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 483.5550489060006,
+      "message": "Leader position 3069 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 484.591677446002,
+      "message": "Leader position 3071 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 485.6270709319979,
+      "message": "Leader position 3067 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 486.66338932099825,
+      "message": "Leader position 2993 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 492.0242634749993,
+      "message": "Leader position 2912 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 493.06632605100094,
+      "message": "Leader position 3123 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 494.10326807300225,
+      "message": "Leader position 3123 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 495.13950593200207,
+      "message": "Leader position 3122 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 500.2324606680013,
+      "message": "Leader position 2894 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 501.27336379299595,
+      "message": "Leader position 3034 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 502.3100141520008,
+      "message": "Leader position 3062 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 503.34683152399884,
+      "message": "Leader position 3230 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 504.3836311239975,
+      "message": "Leader position 3036 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 508.97719703799885,
+      "message": "Leader position 2895 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 510.0171737179953,
+      "message": "Leader position 2996 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 639.312983531996,
+      "message": "Leader position 2910 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 640.354847792998,
+      "message": "Leader position 3018 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 641.3909840020024,
+      "message": "Leader position 3018 outside recorded range 905..2877"
+    },
+    {
+      "elapsed_s": 842.333688900002,
+      "message": "Leader position 3115 outside recorded range 896..3098"
+    },
+    {
+      "elapsed_s": 872.3559683820022,
+      "message": "ID 5: timeout reading register 56"
+    },
+    {
+      "elapsed_s": 1052.4360532989995,
+      "message": "Leader position 3119 outside recorded range 896..3098"
+    },
+    {
+      "elapsed_s": 1090.1200920039955,
+      "message": "Leader position 1307 outside recorded range 1326..2583"
+    },
+    {
+      "elapsed_s": 1099.462363196999,
+      "message": "Leader position 1306 outside recorded range 1326..2583"
+    },
+    {
+      "elapsed_s": 1189.3553378600009,
+      "message": "Leader position 3123 outside recorded range 896..3098"
+    }
+  ]
+}

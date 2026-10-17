@@ -1,0 +1,202 @@
+{
+  "outcome": "error",
+  "config": {
+    "port": "/dev/ttyACM0",
+    "baud": 1000000,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "duration": 60.0,
+    "hz": 50,
+    "timeout": 0.03,
+    "move_interval": 1,
+    "max_step": 256,
+    "speed": 1000,
+    "acceleration": 50,
+    "limits": "/home/chumohod/dod/limits.json",
+    "seed": 759361590,
+    "output": null,
+    "resolved_limits": {
+      "1": [
+        1049,
+        3046
+      ],
+      "2": [
+        788,
+        3307
+      ],
+      "3": [
+        875,
+        3220
+      ],
+      "4": [
+        819,
+        3275
+      ],
+      "5": [
+        140,
+        3954
+      ],
+      "6": [
+        1329,
+        2766
+      ]
+    }
+  },
+  "duration_s": 6.297065226000086,
+  "peak_definition": "max(abs(signed current)) over valid sampled telemetry",
+  "current_ma_per_tick": 6.5,
+  "bad_checksums": 0,
+  "ignored_packets": 0,
+  "servos": {
+    "1": {
+      "samples": 313,
+      "fault_samples": 0,
+      "max_abs_current_ma": 58.5,
+      "peak": {
+        "utc": "2026-10-08T20:59:44.079926+00:00",
+        "elapsed_s": 0.210765,
+        "phase": "active",
+        "target_position": 2272,
+        "servo_id": 1,
+        "position": 2112,
+        "speed": 500,
+        "voltage_v": 5.1,
+        "temperature_c": 26,
+        "moving": 1,
+        "current_raw": 9,
+        "current_ma": 58.5,
+        "status": 0,
+        "abs_current_ma": 58.5
+      },
+      "first_elapsed_s": 0.00218,
+      "last_elapsed_s": 6.294383
+    },
+    "2": {
+      "samples": 313,
+      "fault_samples": 0,
+      "max_abs_current_ma": 91.0,
+      "peak": {
+        "utc": "2026-10-08T20:59:49.145550+00:00",
+        "elapsed_s": 5.276368,
+        "phase": "active",
+        "target_position": 1529,
+        "servo_id": 2,
+        "position": 1648,
+        "speed": -400,
+        "voltage_v": 5.0,
+        "temperature_c": 26,
+        "moving": 1,
+        "current_raw": 14,
+        "current_ma": 91.0,
+        "status": 0,
+        "abs_current_ma": 91.0
+      },
+      "first_elapsed_s": 0.003013,
+      "last_elapsed_s": 6.294877
+    },
+    "3": {
+      "samples": 313,
+      "fault_samples": 0,
+      "max_abs_current_ma": 318.5,
+      "peak": {
+        "utc": "2026-10-08T20:59:47.035712+00:00",
+        "elapsed_s": 3.166527,
+        "phase": "active",
+        "target_position": 3066,
+        "servo_id": 3,
+        "position": 3174,
+        "speed": -200,
+        "voltage_v": 5.0,
+        "temperature_c": 27,
+        "moving": 1,
+        "current_raw": 49,
+        "current_ma": 318.5,
+        "status": 0,
+        "abs_current_ma": 318.5
+      },
+      "first_elapsed_s": 0.003754,
+      "last_elapsed_s": 6.295359
+    },
+    "4": {
+      "samples": 313,
+      "fault_samples": 0,
+      "max_abs_current_ma": 91.0,
+      "peak": {
+        "utc": "2026-10-08T20:59:47.098168+00:00",
+        "elapsed_s": 3.228985,
+        "phase": "active",
+        "target_position": 2022,
+        "servo_id": 4,
+        "position": 2171,
+        "speed": -450,
+        "voltage_v": 5.0,
+        "temperature_c": 26,
+        "moving": 1,
+        "current_raw": 14,
+        "current_ma": 91.0,
+        "status": 0,
+        "abs_current_ma": 91.0
+      },
+      "first_elapsed_s": 0.004543,
+      "last_elapsed_s": 6.295844
+    },
+    "5": {
+      "samples": 313,
+      "fault_samples": 0,
+      "max_abs_current_ma": 39.0,
+      "peak": {
+        "utc": "2026-10-08T20:59:44.063769+00:00",
+        "elapsed_s": 0.194586,
+        "phase": "active",
+        "target_position": 3240,
+        "servo_id": 5,
+        "position": 3099,
+        "speed": 500,
+        "voltage_v": 5.0,
+        "temperature_c": 25,
+        "moving": 1,
+        "current_raw": 6,
+        "current_ma": 39.0,
+        "status": 0,
+        "abs_current_ma": 39.0
+      },
+      "first_elapsed_s": 0.005281,
+      "last_elapsed_s": 6.296336
+    },
+    "6": {
+      "samples": 313,
+      "fault_samples": 1,
+      "max_abs_current_ma": 45.5,
+      "peak": {
+        "utc": "2026-10-08T20:59:49.147856+00:00",
+        "elapsed_s": 5.278671,
+        "phase": "active",
+        "target_position": 1680,
+        "servo_id": 6,
+        "position": 1876,
+        "speed": -550,
+        "voltage_v": 5.0,
+        "temperature_c": 26,
+        "moving": 1,
+        "current_raw": 7,
+        "current_ma": 45.5,
+        "status": 0,
+        "abs_current_ma": 45.5
+      },
+      "first_elapsed_s": 0.006113,
+      "last_elapsed_s": 6.296848
+    }
+  },
+  "errors": [
+    {
+      "elapsed_s": 6.293887338999866,
+      "message": "ID 6: servo reports status 0x01; test stopped"
+    }
+  ]
+}

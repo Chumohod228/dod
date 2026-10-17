@@ -1,0 +1,22 @@
+{
+  "note": "Observed manual ranges. Coordinate shifts are proposals, not applied to hardware.",
+  "assumption": "Each joint moves less than 2048 ticks between successive valid samples.",
+  "servos": {
+    "23": {
+      "previous_raw": 76,
+      "continuous": 4172,
+      "minimum": 2960,
+      "maximum": 7007,
+      "wraps": 1,
+      "samples": 2257,
+      "ambiguous_steps": 0,
+      "span_ticks": 4047,
+      "span_degrees": 355.693359375,
+      "proposed_centered_limits": [
+        24,
+        4071
+      ],
+      "proposed_coordinate_shift": -2936
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "outcome": "error",
+  "completed_steps": 0,
+  "current": null,
+  "resumed_from": null,
+  "scene_sha256": "87ffa54a13b2fba94750ba091b9ac3520972c82dcd35313ec26e89099743d60f",
+  "error": "ID 6: status 0x20 reading register 3",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

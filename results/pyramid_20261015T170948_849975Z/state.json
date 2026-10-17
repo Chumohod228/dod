@@ -1,0 +1,23 @@
+{
+  "operation": "assemble",
+  "outcome": "interrupted",
+  "completed_steps": 0,
+  "current": {
+    "cube": "startup",
+    "arm": "left",
+    "name": "park",
+    "target": [
+      2370,
+      787,
+      3224,
+      2953,
+      3080,
+      2734
+    ],
+    "dwell": 0
+  },
+  "resumed_from": null,
+  "scene_sha256": "8cc44a5ff1d3e850712d58e1647ed37ea4745c39f44bb549e784216740ab3471",
+  "error": "Остановка пользователем",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

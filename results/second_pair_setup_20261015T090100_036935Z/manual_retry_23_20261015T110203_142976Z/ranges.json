@@ -1,0 +1,14 @@
+{
+  "outcome": "stopped",
+  "elapsed_s": 45.666407993001485,
+  "note": "Observed manual extrema, not verified collision-free limits",
+  "servos": {
+    "23": {
+      "min": 18,
+      "max": 4088,
+      "current": 76,
+      "samples": 2257,
+      "errors": 0
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "outcome": "completed",
+  "completed_steps": 36,
+  "current": {
+    "cube": "cube_2",
+    "arm": "right",
+    "name": "park",
+    "target": [
+      1783,
+      856,
+      3141,
+      2952,
+      941,
+      2762
+    ],
+    "dwell": 0
+  },
+  "resumed_from": null,
+  "scene_sha256": "6076f6c21bf684d28b8151064f8a3ca2d5e58c02d3dafa8efa4d6529d756dddf",
+  "startup_parking_completed": [
+    "left",
+    "right"
+  ]
+}

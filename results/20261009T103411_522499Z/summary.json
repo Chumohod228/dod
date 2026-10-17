@@ -1,0 +1,143 @@
+{
+  "outcome": "error",
+  "config": {
+    "port": "/dev/ttyACM0",
+    "baud": 1000000,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "duration": 60.0,
+    "hz": 50,
+    "timeout": 0.03,
+    "move_interval": 1,
+    "max_step": 4095,
+    "min_separation": 0.35,
+    "speed": 1000,
+    "acceleration": 50,
+    "limits": "/home/chumohod/dod/limits.json",
+    "seed": 1206702209,
+    "output": null,
+    "resolved_limits": {
+      "1": [
+        1374,
+        2720
+      ],
+      "2": [
+        1340,
+        2754
+      ],
+      "3": [
+        1550,
+        2544
+      ],
+      "4": [
+        1678,
+        2416
+      ],
+      "5": [
+        1468,
+        2627
+      ],
+      "6": [
+        1632,
+        2463
+      ]
+    }
+  },
+  "duration_s": 0.03409174099988377,
+  "peak_definition": "max(abs(signed current)) over valid sampled telemetry",
+  "current_ma_per_tick": 6.5,
+  "bad_checksums": 0,
+  "ignored_packets": 0,
+  "servos": {
+    "1": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "2": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "3": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "4": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "5": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "6": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    }
+  },
+  "errors": [
+    {
+      "elapsed_s": 0.03401713299990661,
+      "message": "ID 1: timeout reading register 33"
+    }
+  ]
+}

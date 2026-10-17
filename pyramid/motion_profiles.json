@@ -1,0 +1,46 @@
+{
+  "smooth": {
+    "hz": 25,
+    "speed_ticks_s": 350,
+    "acceleration": 20,
+    "tolerance_ticks": 24,
+    "park_tolerance_ticks": 100,
+    "settle_s": 0.25,
+    "waypoint_timeout_s": 25,
+    "max_read_age_s": 0.2,
+    "grip_dwell_s": 0.5,
+    "release_dwell_s": 0.5,
+    "transit_tolerance_ticks": 32,
+    "transit_speed_ticks_s": 2048,
+    "trajectory_profile": "cubic",
+    "continuous_transit": false,
+    "transit_settle_s": 0.25,
+    "contact_settle_s": 0.25,
+    "grip_settle_s": 0.25,
+    "gripper_speed_ticks_s": 350,
+    "cube_approach_speed_scales": {}
+  },
+  "drifty": {
+    "hz": 25,
+    "speed_ticks_s": 350,
+    "acceleration": 20,
+    "tolerance_ticks": 24,
+    "park_tolerance_ticks": 100,
+    "settle_s": 0.25,
+    "waypoint_timeout_s": 25,
+    "max_read_age_s": 0.2,
+    "grip_dwell_s": 0,
+    "release_dwell_s": 0.5,
+    "transit_tolerance_ticks": 32,
+    "transit_speed_ticks_s": 2048,
+    "trajectory_profile": "quintic",
+    "transit_settle_s": 0,
+    "contact_settle_s": 0,
+    "continuous_transit": true,
+    "gripper_speed_ticks_s": 700,
+    "cube_approach_speed_scales": {
+      "cube_5": 0.8
+    },
+    "grip_settle_s": 0
+  }
+}

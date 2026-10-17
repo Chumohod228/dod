@@ -1,0 +1,91 @@
+{
+  "outcome": "stopped",
+  "elapsed_s": 149.07339558999956,
+  "note": "Observed manual extrema, not verified collision-free limits",
+  "servos": {
+    "19": {
+      "min": 905,
+      "max": 2877,
+      "current": 2044,
+      "samples": 7364,
+      "errors": 0
+    },
+    "20": {
+      "min": 784,
+      "max": 3276,
+      "current": 796,
+      "samples": 7364,
+      "errors": 0
+    },
+    "21": {
+      "min": 896,
+      "max": 3098,
+      "current": 3095,
+      "samples": 7364,
+      "errors": 0
+    },
+    "22": {
+      "min": 761,
+      "max": 3259,
+      "current": 2923,
+      "samples": 7364,
+      "errors": 0
+    },
+    "23": {
+      "min": 7,
+      "max": 4095,
+      "current": 3968,
+      "samples": 7364,
+      "errors": 0
+    },
+    "24": {
+      "min": 1326,
+      "max": 2583,
+      "current": 1350,
+      "samples": 7364,
+      "errors": 0
+    },
+    "1": {
+      "min": 678,
+      "max": 2674,
+      "current": 1956,
+      "samples": 7364,
+      "errors": 0
+    },
+    "2": {
+      "min": 764,
+      "max": 3327,
+      "current": 949,
+      "samples": 7364,
+      "errors": 0
+    },
+    "3": {
+      "min": 841,
+      "max": 3210,
+      "current": 3207,
+      "samples": 7364,
+      "errors": 0
+    },
+    "4": {
+      "min": 810,
+      "max": 3282,
+      "current": 2925,
+      "samples": 7364,
+      "errors": 0
+    },
+    "5": {
+      "min": 123,
+      "max": 3981,
+      "current": 1115,
+      "samples": 7364,
+      "errors": 0
+    },
+    "6": {
+      "min": 1315,
+      "max": 2806,
+      "current": 1330,
+      "samples": 7364,
+      "errors": 0
+    }
+  }
+}

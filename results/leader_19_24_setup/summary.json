@@ -1,0 +1,51 @@
+{
+  "updated_utc": "2026-10-14T14:21:26.433778+00:00",
+  "role": "leader",
+  "side": "not specified",
+  "target": 2048,
+  "verification": "Each servo verified individually; full assembled bus not checked yet",
+  "servos": [
+    {
+      "joint": "base",
+      "id": 19,
+      "last_verified_position": 2049,
+      "torque_off_verified": true,
+      "report": "results/center_20261014T140619_193341Z/report.json"
+    },
+    {
+      "joint": "shoulder",
+      "id": 20,
+      "last_verified_position": 2047,
+      "torque_off_verified": true,
+      "report": "results/center_20261014T141140_427888Z/report.json"
+    },
+    {
+      "joint": "elbow",
+      "id": 21,
+      "last_verified_position": 2049,
+      "torque_off_verified": true,
+      "report": "results/center_20261014T141434_152464Z/report.json"
+    },
+    {
+      "joint": "wrist_flex",
+      "id": 22,
+      "last_verified_position": 2048,
+      "torque_off_verified": true,
+      "report": "results/center_20261014T141625_035549Z/report.json"
+    },
+    {
+      "joint": "wrist_roll",
+      "id": 23,
+      "last_verified_position": 2047,
+      "torque_off_verified": true,
+      "report": "results/center_20261014T141849_583357Z/report.json"
+    },
+    {
+      "joint": "gripper",
+      "id": 24,
+      "last_verified_position": 2049,
+      "torque_off_verified": true,
+      "report": "results/center_20261014T142050_746017Z/report.json"
+    }
+  ]
+}

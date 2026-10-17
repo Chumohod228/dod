@@ -1,0 +1,198 @@
+{
+  "outcome": "interrupted",
+  "config": {
+    "port": "/dev/ttyACM0",
+    "baud": 1000000,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "duration": 60.0,
+    "hz": 50,
+    "timeout": 0.03,
+    "move_interval": 1,
+    "max_step": 4095,
+    "min_separation": 0.35,
+    "speed": 1000,
+    "acceleration": 50,
+    "limits": "/home/chumohod/dod/limits.json",
+    "seed": 1568952723,
+    "output": null,
+    "resolved_limits": {
+      "1": [
+        1070,
+        3025
+      ],
+      "2": [
+        866,
+        3229
+      ],
+      "3": [
+        919,
+        3176
+      ],
+      "4": [
+        1058,
+        3036
+      ],
+      "5": [
+        1995,
+        2099
+      ],
+      "6": [
+        1791,
+        2304
+      ]
+    }
+  },
+  "duration_s": 42.08325679200004,
+  "peak_definition": "max(abs(signed current)) over valid sampled telemetry",
+  "current_ma_per_tick": 6.5,
+  "bad_checksums": 0,
+  "ignored_packets": 0,
+  "servos": {
+    "1": {
+      "samples": 2079,
+      "fault_samples": 0,
+      "max_abs_current_ma": 3627.0,
+      "peak": {
+        "utc": "2026-10-09T10:04:18.244706+00:00",
+        "elapsed_s": 4.690203,
+        "phase": "active",
+        "target_position": 2710,
+        "servo_id": 1,
+        "position": 2411,
+        "speed": 0,
+        "voltage_v": 6.1,
+        "temperature_c": 26,
+        "moving": 0,
+        "current_raw": 558,
+        "current_ma": 3627.0,
+        "status": 0,
+        "abs_current_ma": 3627.0
+      },
+      "first_elapsed_s": 0.002517,
+      "last_elapsed_s": 42.079383
+    },
+    "2": {
+      "samples": 2079,
+      "fault_samples": 0,
+      "max_abs_current_ma": 877.5,
+      "peak": {
+        "utc": "2026-10-09T10:04:38.163290+00:00",
+        "elapsed_s": 24.608771,
+        "phase": "active",
+        "target_position": 2146,
+        "servo_id": 2,
+        "position": 1164,
+        "speed": 550,
+        "voltage_v": 6.6,
+        "temperature_c": 26,
+        "moving": 1,
+        "current_raw": 135,
+        "current_ma": 877.5,
+        "status": 0,
+        "abs_current_ma": 877.5
+      },
+      "first_elapsed_s": 0.003789,
+      "last_elapsed_s": 42.08017
+    },
+    "3": {
+      "samples": 2079,
+      "fault_samples": 0,
+      "max_abs_current_ma": 1384.5,
+      "peak": {
+        "utc": "2026-10-09T10:04:25.270167+00:00",
+        "elapsed_s": 11.715648,
+        "phase": "active",
+        "target_position": 2926,
+        "servo_id": 3,
+        "position": 2774,
+        "speed": 150,
+        "voltage_v": 6.5,
+        "temperature_c": 27,
+        "moving": 1,
+        "current_raw": 213,
+        "current_ma": 1384.5,
+        "status": 0,
+        "abs_current_ma": 1384.5
+      },
+      "first_elapsed_s": 0.004919,
+      "last_elapsed_s": 42.080994
+    },
+    "4": {
+      "samples": 2079,
+      "fault_samples": 0,
+      "max_abs_current_ma": 1514.5,
+      "peak": {
+        "utc": "2026-10-09T10:04:46.414578+00:00",
+        "elapsed_s": 32.860057,
+        "phase": "active",
+        "target_position": 2808,
+        "servo_id": 4,
+        "position": 2647,
+        "speed": 150,
+        "voltage_v": 5.8,
+        "temperature_c": 26,
+        "moving": 1,
+        "current_raw": 233,
+        "current_ma": 1514.5,
+        "status": 0,
+        "abs_current_ma": 1514.5
+      },
+      "first_elapsed_s": 0.005981,
+      "last_elapsed_s": 42.081648
+    },
+    "5": {
+      "samples": 2079,
+      "fault_samples": 0,
+      "max_abs_current_ma": 65.0,
+      "peak": {
+        "utc": "2026-10-09T10:04:46.597841+00:00",
+        "elapsed_s": 33.043321,
+        "phase": "active",
+        "target_position": 2021,
+        "servo_id": 5,
+        "position": 2065,
+        "speed": -50,
+        "voltage_v": 6.6,
+        "temperature_c": 24,
+        "moving": 1,
+        "current_raw": 10,
+        "current_ma": 65.0,
+        "status": 0,
+        "abs_current_ma": 65.0
+      },
+      "first_elapsed_s": 0.007064,
+      "last_elapsed_s": 42.082288
+    },
+    "6": {
+      "samples": 2079,
+      "fault_samples": 0,
+      "max_abs_current_ma": 84.5,
+      "peak": {
+        "utc": "2026-10-09T10:04:25.558072+00:00",
+        "elapsed_s": 12.003554,
+        "phase": "active",
+        "target_position": 2262,
+        "servo_id": 6,
+        "position": 2109,
+        "speed": 600,
+        "voltage_v": 7.4,
+        "temperature_c": 26,
+        "moving": 1,
+        "current_raw": 13,
+        "current_ma": 84.5,
+        "status": 0,
+        "abs_current_ma": 84.5
+      },
+      "first_elapsed_s": 0.008149,
+      "last_elapsed_s": 42.082913
+    }
+  },
+  "errors": []
+}

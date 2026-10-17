@@ -1,0 +1,157 @@
+{
+  "outcome": "error",
+  "config": {
+    "port": "/dev/ttyACM0",
+    "baud": 1000000,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "duration": 60.0,
+    "hz": 50,
+    "timeout": 0.03,
+    "move_interval": 1,
+    "max_step": 256,
+    "speed": 1000,
+    "acceleration": 50,
+    "limits": "/home/chumohod/dod/limits.json",
+    "seed": 1508536810,
+    "output": null,
+    "resolved_limits": {
+      "1": [
+        1049,
+        3046
+      ],
+      "2": [
+        788,
+        3307
+      ],
+      "3": [
+        875,
+        3220
+      ],
+      "4": [
+        819,
+        3275
+      ],
+      "5": [
+        140,
+        3954
+      ],
+      "6": [
+        1329,
+        2766
+      ]
+    }
+  },
+  "duration_s": 0.004426015000262851,
+  "peak_definition": "max(abs(signed current)) over valid sampled telemetry",
+  "current_ma_per_tick": 6.5,
+  "bad_checksums": 0,
+  "ignored_packets": 0,
+  "servos": {
+    "1": {
+      "samples": 1,
+      "fault_samples": 0,
+      "max_abs_current_ma": 0.0,
+      "peak": {
+        "utc": "2026-10-08T20:59:29.204724+00:00",
+        "elapsed_s": 0.002676,
+        "phase": "preflight",
+        "target_position": null,
+        "servo_id": 1,
+        "position": 1654,
+        "speed": 0,
+        "voltage_v": 5.1,
+        "temperature_c": 26,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "first_elapsed_s": 0.002676,
+      "last_elapsed_s": 0.002676
+    },
+    "2": {
+      "samples": 1,
+      "fault_samples": 0,
+      "max_abs_current_ma": 0.0,
+      "peak": {
+        "utc": "2026-10-08T20:59:29.205558+00:00",
+        "elapsed_s": 0.003507,
+        "phase": "preflight",
+        "target_position": null,
+        "servo_id": 2,
+        "position": 1024,
+        "speed": 0,
+        "voltage_v": 5.1,
+        "temperature_c": 26,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "first_elapsed_s": 0.003507,
+      "last_elapsed_s": 0.003507
+    },
+    "3": {
+      "samples": 1,
+      "fault_samples": 0,
+      "max_abs_current_ma": 0.0,
+      "peak": {
+        "utc": "2026-10-08T20:59:29.206440+00:00",
+        "elapsed_s": 0.004389,
+        "phase": "preflight",
+        "target_position": null,
+        "servo_id": 3,
+        "position": 3223,
+        "speed": 0,
+        "voltage_v": 5.1,
+        "temperature_c": 27,
+        "moving": 0,
+        "current_raw": 0,
+        "current_ma": 0.0,
+        "status": 0,
+        "abs_current_ma": 0.0
+      },
+      "first_elapsed_s": 0.004389,
+      "last_elapsed_s": 0.004389
+    },
+    "4": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null
+    },
+    "5": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null
+    },
+    "6": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null
+    }
+  },
+  "errors": [
+    {
+      "elapsed_s": 0.004407008000271162,
+      "message": "ID 3: initial position 3223 outside 875..3220; set the initial pose or correct the limits first"
+    }
+  ]
+}

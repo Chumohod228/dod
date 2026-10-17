@@ -1,0 +1,26 @@
+{
+  "outcome": "interrupted",
+  "completed_steps": 3,
+  "current": {
+    "cube": "cube_5",
+    "arm": "left",
+    "name": "lift",
+    "target": [
+      1874,
+      1903,
+      2180,
+      3240,
+      2782,
+      1707
+    ],
+    "dwell": 0
+  },
+  "resumed_from": null,
+  "scene_sha256": "c6b68220dc6325df822fca9f34a1635896abbea7c166b3ce0a17b9643006813d",
+  "startup_parking_completed": [
+    "left",
+    "right"
+  ],
+  "error": "Остановка пользователем",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

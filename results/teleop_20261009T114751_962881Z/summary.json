@@ -1,0 +1,248 @@
+{
+  "outcome": "error",
+  "config": {
+    "port": "/dev/ttyACM0",
+    "leader_ranges": {
+      "7": [
+        -1255,
+        1482
+      ],
+      "8": [
+        1596,
+        3976
+      ],
+      "9": [
+        2313,
+        4526
+      ],
+      "10": [
+        1847,
+        4308
+      ],
+      "11": [
+        2068,
+        5870
+      ],
+      "12": [
+        -279,
+        976
+      ]
+    },
+    "follower_limits": "/home/chumohod/dod/limits.json",
+    "invert": [],
+    "hz": 50,
+    "speed": 600,
+    "acceleration": 50,
+    "deadband": 2,
+    "retry_interval": 0.5,
+    "timeout": 0.03,
+    "max_read_age": 0.2,
+    "max_leader_step": 1024,
+    "duration": 0,
+    "check_only": false,
+    "output": null,
+    "follower_ranges": {
+      "1": [
+        683,
+        3412
+      ],
+      "2": [
+        772,
+        3322
+      ],
+      "3": [
+        863,
+        3231
+      ],
+      "4": [
+        815,
+        3280
+      ],
+      "5": [
+        129,
+        3966
+      ],
+      "6": [
+        1322,
+        2772
+      ]
+    },
+    "pairs": {
+      "7": 1,
+      "8": 2,
+      "9": 3,
+      "10": 4,
+      "11": 5,
+      "12": 6
+    }
+  },
+  "duration_s": 0.037133459999495244,
+  "peak_definition": "max(abs(signed current)) over valid sampled telemetry",
+  "current_ma_per_tick": 6.5,
+  "bad_checksums": 0,
+  "ignored_packets": 0,
+  "servos": {
+    "1": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "2": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "3": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "4": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "5": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "6": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "7": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "8": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "9": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "10": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "11": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    },
+    "12": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null,
+      "voltage_v": null,
+      "min_voltage_v": null,
+      "max_voltage_v": null,
+      "min_voltage_sample": null,
+      "max_voltage_sample": null
+    }
+  },
+  "errors": [
+    {
+      "elapsed_s": 0.0370535040001414,
+      "message": "ID 1: timeout reading register 3"
+    }
+  ]
+}

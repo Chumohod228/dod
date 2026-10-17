@@ -1,0 +1,10 @@
+.venv/
+.tools/
+wheelhouse/
+datasets/
+logs/
+outputs/
+__pycache__/
+*.egg-info/
+build/
+.verify-venv/

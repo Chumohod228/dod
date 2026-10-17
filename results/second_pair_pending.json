@@ -1,0 +1,18 @@
+{
+  "port": "/dev/serial/by-id/usb-1a86_USB_Single_Serial_5AE6080141-if00",
+  "folder": "/home/chumohod/dod/results/second_pair_setup_20261015T090100_036935Z",
+  "ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ]
+}

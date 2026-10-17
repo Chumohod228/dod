@@ -1,0 +1,22 @@
+{
+  "outcome": "error",
+  "completed_steps": 0,
+  "current": {
+    "cube": "startup",
+    "arm": "left",
+    "name": "park",
+    "target": [
+      2381,
+      787,
+      3227,
+      2953,
+      3098,
+      2688
+    ],
+    "dwell": 0
+  },
+  "resumed_from": null,
+  "scene_sha256": "a8a62078f9ce567af6fc950d658cdce493bcd84d6e15d15707751db49981f0c9",
+  "error": "right: рука должна быть в показанной парковочной позе вне общей зоны",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

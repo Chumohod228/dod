@@ -1,0 +1,38 @@
+Журнал: /home/chumohod/dod/results/second_pair_setup_20261015T090100_036935Z/teleop_restart_20261015T175746_049447Z
+Следование включено: 19→1, 20→2, 21→3, 22→4, 23→5, 24→6. Ctrl+C — остановка.
+19→1: 2154→3011 U=7.7 V I=0.000 A err=-34 status=0x00 | 20→2: 914→2137 U=7.7 V I=0.013 A err=-43 status=0x00 | 21→3: 3104→1954 U=7.7 V I=0.013 A err=+25 status=0x00 | 22→4: 2886→2797 U=7.7 V I=0.000 A err=+34 status=0x00 | 23→5: 1988→3467 U=7.7 V I=0.000 A err=-34 status=0x00 | 24→6: 1348→1608 U=7.7 V I=0.000 A err=-34 status=0x00
+19→1: 2154→2313 U=7.7 V I=0.006 A err=-2 status=0x00 | 20→2: 914→900 U=7.7 V I=0.000 A err=-12 status=0x00 | 21→3: 3104→3232 U=7.7 V I=0.000 A err=+9 status=0x00 | 22→4: 2886→2914 U=7.7 V I=0.000 A err=+0 status=0x00 | 23→5: 1988→3096 U=7.7 V I=0.000 A err=-2 status=0x00 | 24→6: 1348→1328 U=7.7 V I=0.000 A err=-5 status=0x00
+19→1: 2154→2313 U=7.7 V I=0.006 A err=-2 status=0x00 | 20→2: 914→900 U=7.7 V I=0.000 A err=+0 status=0x00 | 21→3: 3104→3232 U=7.7 V I=0.006 A err=+5 status=0x00 | 22→4: 2886→2914 U=7.7 V I=0.000 A err=+0 status=0x00 | 23→5: 1988→3096 U=7.7 V I=0.000 A err=-2 status=0x00 | 24→6: 1348→1328 U=7.7 V I=0.006 A err=-5 status=0x00
+19→1: 2154→2313 U=7.7 V I=0.006 A err=-2 status=0x00 | 20→2: 914→900 U=7.7 V I=0.000 A err=+0 status=0x00 | 21→3: 3104→3232 U=7.7 V I=0.006 A err=+5 status=0x00 | 22→4: 2886→2914 U=7.7 V I=0.000 A err=+0 status=0x00 | 23→5: 1988→3096 U=7.7 V I=0.006 A err=-2 status=0x00 | 24→6: 1348→1328 U=7.7 V I=0.000 A err=-5 status=0x00
+19→1: 2154→2313 U=7.7 V I=0.006 A err=-2 status=0x00 | 20→2: 914→900 U=7.7 V I=0.000 A err=+0 status=0x00 | 21→3: 3104→3232 U=7.7 V I=0.006 A err=+5 status=0x00 | 22→4: 2886→2914 U=7.7 V I=0.000 A err=+0 status=0x00 | 23→5: 1988→3096 U=7.7 V I=0.000 A err=-2 status=0x00 | 24→6: 1348→1328 U=7.7 V I=0.006 A err=-5 status=0x00
+19→1: 2154→2313 U=7.7 V I=0.006 A err=-2 status=0x00 | 20→2: 914→900 U=7.7 V I=0.000 A err=+0 status=0x00 | 21→3: 3104→3232 U=7.7 V I=0.006 A err=+5 status=0x00 | 22→4: 2886→2914 U=7.7 V I=0.000 A err=+0 status=0x00 | 23→5: 1988→3096 U=7.7 V I=0.000 A err=-2 status=0x00 | 24→6: 1348→1328 U=7.7 V I=0.006 A err=-5 status=0x00
+19→1: 2154→2313 U=7.7 V I=0.006 A err=-2 status=0x00 | 20→2: 914→900 U=7.7 V I=0.000 A err=+0 status=0x00 | 21→3: 3104→3232 U=7.7 V I=0.000 A err=+5 status=0x00 | 22→4: 2886→2914 U=7.7 V I=0.000 A err=+0 status=0x00 | 23→5: 1988→3096 U=7.7 V I=0.000 A err=-2 status=0x00 | 24→6: 1348→1328 U=7.7 V I=0.000 A err=-5 status=0x00
+19→1: 2154→2313 U=7.7 V I=0.006 A err=-2 status=0x00 | 20→2: 914→900 U=7.7 V I=0.000 A err=+0 status=0x00 | 21→3: 3104→3232 U=7.7 V I=0.000 A err=+5 status=0x00 | 22→4: 2886→2914 U=7.7 V I=0.000 A err=+0 status=0x00 | 23→5: 1988→3096 U=7.7 V I=0.000 A err=-2 status=0x00 | 24→6: 1348→1328 U=7.7 V I=0.006 A err=-5 status=0x00
+19→1: 2154→2313 U=7.8 V I=0.006 A err=-2 status=0x00 | 20→2: 914→900 U=7.7 V I=0.000 A err=+0 status=0x00 | 21→3: 3104→3232 U=7.7 V I=0.006 A err=+5 status=0x00 | 22→4: 2886→2914 U=7.7 V I=0.000 A err=+0 status=0x00 | 23→5: 1988→3096 U=7.7 V I=0.006 A err=-2 status=0x00 | 24→6: 1348→1328 U=7.7 V I=0.006 A err=-5 status=0x00
+19→1: 2154→2313 U=7.7 V I=0.006 A err=-2 status=0x00 | 20→2: 914→900 U=7.7 V I=0.000 A err=+0 status=0x00 | 21→3: 3104→3232 U=7.7 V I=0.006 A err=+5 status=0x00 | 22→4: 2886→2914 U=7.7 V I=0.000 A err=+0 status=0x00 | 23→5: 1988→3096 U=7.7 V I=0.000 A err=-2 status=0x00 | 24→6: 1348→1328 U=7.7 V I=0.000 A err=-5 status=0x00
+19→1: 2154→2313 U=7.7 V I=0.000 A err=-1 status=0x00 | 20→2: 914→900 U=7.7 V I=0.000 A err=-1 status=0x00 | 21→3: 3104→3232 U=7.7 V I=0.006 A err=+5 status=0x00 | 22→4: 2886→2914 U=7.7 V I=0.000 A err=+0 status=0x00 | 23→5: 1988→3096 U=7.7 V I=0.000 A err=-2 status=0x00 | 24→6: 1348→1328 U=7.7 V I=0.006 A err=-5 status=0x00
+19→1: 2154→2313 U=7.7 V I=0.000 A err=-1 status=0x00 | 20→2: 914→900 U=7.7 V I=0.000 A err=-1 status=0x00 | 21→3: 3104→3232 U=7.7 V I=0.006 A err=+5 status=0x00 | 22→4: 2886→2914 U=7.7 V I=0.000 A err=+0 status=0x00 | 23→5: 1988→3096 U=7.7 V I=0.000 A err=-2 status=0x00 | 24→6: 1348→1328 U=7.7 V I=0.000 A err=-5 status=0x00
+Write timeout
+Traceback (most recent call last):
+  File "/home/chumohod/dod/leader_follower.py", line 372, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/chumohod/dod/leader_follower.py", line 343, in main
+    outcome, code = run(ServoBus(port, args.timeout), recorder, args,
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chumohod/dod/leader_follower.py", line 253, in run
+    if not hold_current_positions(bus, recorder, follower_ranges, args.speed, args.acceleration,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chumohod/dod/servo_current_test.py", line 294, in hold_current_positions
+    f = bus.feedback(servo_id)
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chumohod/dod/servo_current_test.py", line 126, in feedback
+    data, status = self.read(servo_id, 56, 15)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chumohod/dod/servo_current_test.py", line 84, in read
+    self.port.reset_input_buffer()
+  File "/home/chumohod/dod/arm100_dataset_project/.venv/lib/python3.12/site-packages/serial/serialposix.py", line 683, in reset_input_buffer
+    self._reset_input_buffer()
+  File "/home/chumohod/dod/arm100_dataset_project/.venv/lib/python3.12/site-packages/serial/serialposix.py", line 677, in _reset_input_buffer
+    termios.tcflush(self.fd, termios.TCIFLUSH)
+termios.error: (5, 'Input/output error')

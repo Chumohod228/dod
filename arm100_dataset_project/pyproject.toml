@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=71,<82"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arm100-dataset-project"
+version = "0.1.1"
+description = "Local LeRobot bimanual SO-ARM100 dataset collection with RealSense"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "lerobot[core_scripts,training,feetech,intelrealsense]==0.6.1",
+  "torch==2.10.0+cpu",
+  "torchvision==0.25.0+cpu",
+  "torchcodec==0.10.0",
+  "imageio-ffmpeg==0.6.0",
+  "pip>=25,<27",
+]
+
+[project.scripts]
+arm100-collect = "arm100_collect.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv]
+environments = ["sys_platform == 'linux' and platform_machine == 'x86_64'"]
+
+[tool.uv.sources]
+lerobot = { path = "vendor/lerobot", editable = true }
+torch = { index = "pytorch-cpu" }
+torchvision = { index = "pytorch-cpu" }
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

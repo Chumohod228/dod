@@ -1,0 +1,22 @@
+{
+  "outcome": "error",
+  "completed_steps": 2,
+  "current": {
+    "cube": "cube_5",
+    "arm": "left",
+    "name": "grasp",
+    "target": [
+      2661,
+      2314,
+      2051,
+      2928,
+      3054,
+      1759
+    ],
+    "dwell": 0.5
+  },
+  "resumed_from": "results/pyramid_20261015T121219_669693Z",
+  "scene_sha256": "75b5df03ee4128b8ff7e161e0d777f83d18d5f0026b1d0763251f5ef2c54d129",
+  "error": "cube_5/grasp: цель не достигнута за отведённое время",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

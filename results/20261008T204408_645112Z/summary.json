@@ -1,0 +1,112 @@
+{
+  "outcome": "error",
+  "config": {
+    "port": "/dev/ttyUSB1",
+    "baud": 1000000,
+    "ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "duration": 60.0,
+    "hz": 50,
+    "timeout": 0.03,
+    "move_interval": 1,
+    "max_step": 256,
+    "speed": 1000,
+    "acceleration": 50,
+    "limits": null,
+    "seed": 1616238333,
+    "output": null,
+    "resolved_limits": {
+      "1": [
+        1023,
+        3071
+      ],
+      "2": [
+        1023,
+        3071
+      ],
+      "3": [
+        1023,
+        3071
+      ],
+      "4": [
+        1023,
+        3071
+      ],
+      "5": [
+        1023,
+        3071
+      ],
+      "6": [
+        1023,
+        2047
+      ]
+    }
+  },
+  "duration_s": 0.0005308549998517265,
+  "peak_definition": "max(abs(signed current)) over valid sampled telemetry",
+  "current_ma_per_tick": 6.5,
+  "bad_checksums": 0,
+  "ignored_packets": 0,
+  "servos": {
+    "1": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null
+    },
+    "2": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null
+    },
+    "3": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null
+    },
+    "4": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null
+    },
+    "5": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null
+    },
+    "6": {
+      "samples": 0,
+      "fault_samples": 0,
+      "max_abs_current_ma": null,
+      "peak": null,
+      "first_elapsed_s": null,
+      "last_elapsed_s": null
+    }
+  },
+  "errors": [
+    {
+      "elapsed_s": 0.0005243269997663447,
+      "message": "[Errno 2] could not open port /dev/ttyUSB1: [Errno 2] No such file or directory: '/dev/ttyUSB1'"
+    }
+  ]
+}

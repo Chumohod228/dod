@@ -1,0 +1,27 @@
+{
+  "operation": "disassemble",
+  "outcome": "error",
+  "completed_steps": 32,
+  "current": {
+    "cube": "cube_5",
+    "arm": "left",
+    "name": "place",
+    "target": [
+      1825,
+      1891,
+      2577,
+      2859,
+      2765,
+      1687
+    ],
+    "dwell": 0
+  },
+  "resumed_from": null,
+  "scene_sha256": "8cc44a5ff1d3e850712d58e1647ed37ea4745c39f44bb549e784216740ab3471",
+  "startup_parking_completed": [
+    "left",
+    "right"
+  ],
+  "error": "ID 6: servo reports status 0x20; U=7.5 V, I=0.182 A",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

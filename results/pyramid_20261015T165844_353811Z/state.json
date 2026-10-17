@@ -1,0 +1,26 @@
+{
+  "outcome": "interrupted",
+  "completed_steps": 2,
+  "current": {
+    "cube": "cube_5",
+    "arm": "left",
+    "name": "grasp",
+    "target": [
+      1825,
+      1891,
+      2577,
+      2859,
+      2765,
+      1707
+    ],
+    "dwell": 0.5
+  },
+  "resumed_from": null,
+  "scene_sha256": "c7e73b37bb654a8bd01ef01d5dcfa24a2de25625bb95b99bf2a834aa94e2521e",
+  "startup_parking_completed": [
+    "left",
+    "right"
+  ],
+  "error": "Остановка пользователем",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}

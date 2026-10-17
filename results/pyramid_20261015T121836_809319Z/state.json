@@ -1,0 +1,9 @@
+{
+  "outcome": "error",
+  "completed_steps": 0,
+  "current": null,
+  "resumed_from": null,
+  "scene_sha256": "a7b9204211b1e4c4225ffbf7f54a1f277444f42f7ee9250dbde457ff6929ce0e",
+  "error": "left: рука должна быть в показанной парковочной позе вне общей зоны",
+  "restart_note": "Проверить кубики и восстановить исходную сцену; автоматического повтора нет."
+}
